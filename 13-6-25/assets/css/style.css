@@ -1,0 +1,90 @@
+                .navbar {
+                        
+                        padding: 20px 0;
+                        display: flex;
+                        justify-content: center;
+                        gap: 90px;
+                        margin-left: -20px;
+                        width: 1600px;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+
+                .navbar h3 {
+                        color: white;
+                        font-weight: bold;
+                        margin-top: -90px;
+                }
+
+                body {
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-attachment: fixed;
+                }
+
+                .textboard {
+                        color: black;
+                        margin-top: -42%;
+                        
+                }
+
+                h1 {
+                        color: #ffffff;
+                        margin-left: 100px;
+                        font-size: 60px;
+                }
+
+                .bottombutton {
+                        border-radius: 10px;
+                        margin-left: 110px;
+                        background-color: chocolate;
+                }
+
+                .newform {
+                        background-color: black;
+                        height: 500px;
+                        width: 400px;
+                        float: right;
+                        margin-top: 100px;
+                        margin-right: 40px;
+                        border-radius: 35px;
+                }
+
+                .newform form {
+                        color: red;
+                }
+
+                .boxlogin{
+                        border: 2px solid black;
+                        background-color: white;
+                        text-align: center;
+                        color: chocolate;
+                        padding: 20px;
+                        border-radius: 20px;
+                        margin-left: 30px;
+                        width: 300px;
+                        font-size: 20px;
+                }
+
+                .input {
+                        margin-top: 15%;
+                        margin: 35px;
+                        background-color: black;
+                        width: 250px;
+                        color: white;
+                }
+
+                .lastbutton {
+                        text-align: center;
+                        border-radius: 40px;
+                }
+
+                .lastline {
+                        color: white;
+                        text-align: center;
+                        font-size: 20px;
+                }
+
+                .written
+                {
+                        margin-left: 20 px;
+                }

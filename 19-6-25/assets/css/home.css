@@ -1,0 +1,46 @@
+body{
+    background-color: gray;
+}
+
+.navbarmiddle .leftlogo{
+    position: absolute;
+    top: 18px;
+    left: 20px;
+}
+.midbutton{
+    text-align: center;
+    margin-top: 13px;
+    
+}
+.mid a{
+    text-decoration: none;
+}
+.mid a:hover{
+    background-color: red;
+    color: black;
+    transform: matrix(1 1 1 1 );
+}
+.rightbutton{
+    position: absolute;
+    top: 10px;
+    left: 1200px;
+}
+.middleblock{
+    background-image: url('../image/backgroundimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border: 2px solid black;
+    height: 550px;
+    width: 100%;
+    left: 1px;
+    right: 1px;
+    top: 80px;
+    text-align: center;
+}
+.imgmiddle h1{
+    position: absolute;
+    top: 15px;
+    right: 300px;
+    font-size: 40px;
+}

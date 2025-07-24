@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login page</title>
+      <link rel="icon" type="image/x-icon" href="assets/image/mgm.png">
+      <style>
+    body {
+    background-image: url('../image/background');
+    background-size: cover;
+}
+
+.mid {
+    position: absolute;
+    left: 430px;
+    top: 70px;
+    justify-content: center;
+    height: 430px;
+    width: 500px;
+    background-color: rgba(51, 45, 45, 0.685);
+}
+
+.midtext {
+    color: white;
+    text-align: center;
+    font-family: serif;
+}
+
+.midtext button {
+    color: white;
+    background-color: rgba(51, 45, 45, 0);
+    border: 1px solid white;
+    padding: 5px 15px;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 25px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.432);
+    border: none;
+}
+
+input[type=checkbox] {
+    position: absolute;
+    left: 92px;
+}
+
+.right {
+    margin-left: 200px;
+    margin-top: -38px;
+}
+
+::placeholder {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.lastbutton {
+    color: white;
+    margin-left: 10px;
+}
+
+.lastbutton button {
+    background-color: rgba(65, 189, 127, 0.664);
+    width: 310px;
+    border: none;
+}
+.lastbutton {
+    position: relative;
+}
+
+.lastbutton .tooltiptext {
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    left: 180px;
+    top: 40px;
+    padding: 3px 15px;
+}
+
+.lastbutton:hover .tooltiptext {
+    visibility: visible;
+}
+
+.lastbutton:hover button{
+    background-color : rgba(0, 192, 96, 0.664);
+}
+
+
+      </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="mid">
+            <div class="midtext">
+                <h3>Sign In</h3>
+                <h5>Swiftly Sign In With</h5>
+                <button><i class="fa-brands fa-facebook"></i>&nbsp;Facebook</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button><i
+                        class="fa-brands fa-google"></i>&nbsp;Google&nbsp;&nbsp;&nbsp;</button>
+                <h5>Or Use Your Email</h5>
+                <input type="text" placeholder="Email"><br><br>
+                <input type="text" placeholder="Password"><br><br><br>
+                <input type="checkbox">
+                <h5 style="margin-left: -170px; margin-top: 2px;"><a href="#">Remember Me </a></h5>
+                <h5 class="right"><a href="#">Forget Password</a></h5><br>
+                <div class="lastbutton">
+                    <button>Sign In</button>
+                    <div class="tooltiptext">click for sign In</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

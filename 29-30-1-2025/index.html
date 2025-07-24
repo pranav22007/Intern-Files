@@ -1,0 +1,3666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova</title>
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .header .cornerlogo {
+            display: flex;
+        }
+
+        .navmain {
+            margin-left: 0px;
+            padding-left: 1px;
+
+        }
+
+        .cornerlogo img {
+            height: 60px;
+            width: 60px;
+            margin-top: -9px;
+            margin-left: 190px;
+        }
+
+        .cornerlogo h2 {
+            margin-top: 4px;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .header .cornerlogo {
+            display: flex;
+        }
+
+        .nav .elements {
+            position: absolute;
+            margin-left: 520px;
+            top: 22px;
+        }
+
+        .elements a {
+            padding: 0px 25px;
+            text-decoration: none;
+            color: rgba(56, 56, 56, 0.808);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .elements .Home {
+            border-bottom: 2px solid black;
+            border-width: 3px;
+        }
+
+        .navbutton button {
+            padding: 10px;
+            background-color: rgb(9, 155, 9);
+            color: white;
+            position: absolute;
+            top: 15px;
+            right: 50px;
+        }
+
+        .navbutton hr {
+            border-width: 4px;
+            margin-top: -10px;
+            width: 100%;
+            border-top: 2px solid black;
+        }
+
+        .navmain {
+            margin-left: 0px;
+            padding-left: -10px;
+
+        }
+
+        .info {
+            margin-left: 120px;
+        }
+
+        .innovative {
+            height: 20px;
+            background-color: rgba(62, 173, 62, 0.301);
+            width: 260px;
+            padding: 0 12px;
+            margin-top: 100px;
+            border-radius: 40px;
+            text-align: center;
+        }
+
+        .innovative p {
+            text-align: center;
+            color: rgb(9, 155, 9);
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+
+        }
+
+        .infoheading h1 {
+            font-size: 60px;
+        }
+
+        .buttoninfo button {
+            padding: 15px 9px;
+        }
+
+        .infop p {
+            font-size: 15px;
+            color: rgba(29, 187, 29, 0.897);
+        }
+
+        .info img {
+            height: 80px;
+            margin-left: -40px;
+        }
+
+        .rightimginfo img {
+            position: absolute;
+            right: 80px;
+            height: 550px;
+            top: 20%;
+            border-radius: 40px;
+        }
+
+        .middiv {
+            background-image: url('../images/images/card-expenses.png');
+            height: 800px;
+            width: 750px;
+            background-size: 350px;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: 20px;
+            top: 380px;
+        }
+
+        .secondinfo {
+            margin-top: 90px;
+            margin-left: 100px;
+        }
+
+        .secondinfo img {
+            height: 400px;
+            width: 500px;
+
+            border-radius: 40px;
+        }
+
+        .secondleftinfo .infoimg {
+            margin-top: 10px;
+            background-color: rgba(12, 102, 12, 0.808);
+            height: 200px;
+            width: 500px;
+            border-radius: 40px;
+            position: absolute;
+        }
+
+        .infoimg h5 {
+            color: white;
+            font-size: 12px;
+            margin-top: 30px;
+            margin-left: 40px;
+        }
+
+        .infoimg p {
+            margin-left: 40px;
+            margin-top: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+
+        .rightaboutus p1 {
+            color: rgb(9, 155, 9);
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            position: absolute;
+            top: 840px;
+            margin-left: 720px;
+            background-color: rgba(62, 173, 62, 0.301);
+            width: 77px;
+            border-radius: 40px;
+            text-align: center;
+        }
+
+        .rightaboutus p2 {
+            position: absolute;
+            top: 890px;
+            margin-left: 720px;
+            font-size: 40px;
+        }
+
+        .rightaboutus p3 {
+            color: slategray;
+            position: absolute;
+            top: 1055px;
+            margin-left: 720px;
+        }
+
+        .rightaboutus p4 {
+            color: slategray;
+            position: absolute;
+            top: 1121px;
+            margin-left: 720px;
+        }
+
+        .rightaboutus p {
+            color: black;
+            position: absolute;
+            top: 1199px;
+            margin-left: 720px;
+        }
+
+        .rightaboutus p5 {
+            color: slategray;
+            position: absolute;
+            top: 1260px;
+            margin-left: 720px;
+            gap: 40px;
+        }
+
+        .thirdinfo {
+            background-color: rgba(72, 134, 72, 0.253);
+            height: 600px;
+            width: 1300px;
+            margin-left: 100px;
+            margin-top: 260px;
+            border-radius: 20px;
+        }
+
+        .leftinfo {
+            position: absolute;
+            margin-left: 40px;
+            top: 1560px;
+            font-size: 20px;
+        }
+
+        .leftinfo p {
+            font-size: 21px;
+            margin-top: 90px;
+            text-align: justify;
+            color: slategray;
+        }
+
+        .button1 {
+            margin-top: 80px;
+            height: 60px;
+            width: 190px;
+            border-radius: 9px;
+            background-color: forestgreen;
+        }
+
+        .button1 .playbutton {
+            position: absolute;
+            top: 380px;
+            left: 10px;
+        }
+
+        .playbutton h4 {
+            color: white;
+            font-size: 17px;
+            width: 200px;
+            position: absolute;
+            top: -20px;
+            left: 30px;
+        }
+
+        .firstbox {
+            position: absolute;
+            right: 560px;
+            top: 1580px;
+            font-size: 30px;
+        }
+
+        .firstbox p1 {
+            font-size: 20px;
+        }
+
+        .firstbox p {
+            color: slategray;
+            font-size: 15px;
+        }
+
+        .secondbox {
+            position: absolute;
+            right: 210px;
+            top: 1580px;
+            font-size: 30px;
+        }
+
+        .secondbox p1 {
+            font-size: 20px;
+        }
+
+        .secondbox p {
+            color: slategray;
+            font-size: 15px;
+        }
+
+        .thirdbox {
+            position: absolute;
+            right: 600px;
+            font-size: 30px;
+            top: 1880px;
+        }
+
+        .thirdbox p1 {
+            font-size: 20px;
+        }
+
+        .thirdbox p {
+            color: slategray;
+            font-size: 15px;
+        }
+
+        .fourthbox {
+            position: absolute;
+            right: 280px;
+            font-size: 30px;
+            top: 1880px;
+        }
+
+        .fourthbox p1 {
+            font-size: 20px;
+        }
+
+        .fourthbox p {
+            color: slategray;
+            font-size: 15px;
+        }
+
+        .fourthpage p1 {
+            padding: 1px;
+            background-color: rgba(72, 134, 72, 0.253);
+            width: 150px;
+            margin-left: 700px;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .fourthpage p,
+        h2 {
+            text-align: center;
+        }
+
+        .fourthpage h2 {
+            font-size: 30px;
+        }
+
+        .leftfourth {
+            height: 400px;
+            width: 400px;
+            border: 1px solid black;
+            margin-left: 100px;
+            border-radius: 20px;
+            float: left;
+        }
+
+        .textfourth {
+            margin-left: 30px;
+        }
+
+        .textfourth h4 {
+            font-size: 20px;
+        }
+
+        .textfourth p {
+            color: slategray;
+            font-size: 15px;
+            margin-left: -5px;
+            width: 320px;
+            line-height: 20px;
+        }
+
+        .textfourth h3 {
+            font-size: 40px;
+            width: 60px;
+        }
+
+        .textfourth button {
+            padding: 10px;
+            border-radius: 9px;
+            background-color: rgba(72, 134, 72, 0.63);
+        }
+
+        .rightfourth {
+            height: 400px;
+            width: 840px;
+            border: 1px solid black;
+            margin-left: 50px;
+            border-radius: 20px;
+            float: left;
+            background-color: rgba(72, 134, 72, 0.63);
+        }
+
+        .rightfourthtext {
+            margin-left: 40px;
+            color: white;
+        }
+
+        .rightfourthtext p {
+            margin-left: -450px;
+            font-size: 20px;
+            width: 1200px;
+        }
+
+        .rightfourthtext h3 {
+            font-size: 40px;
+            width: 60px;
+        }
+
+        .rightfourthtext button {
+            padding: 10px;
+            border-radius: 9px;
+            background-color: rgba(72, 134, 72, 0.63);
+        }
+
+        .rightrighttext {
+            color: white;
+            margin-left: 60px;
+            font-size: 22px;
+        }
+
+        .rightrighttext p {
+            margin-top: -330px;
+
+        }
+
+        .rightrighttext h2 {
+            font-size: 15px;
+            position: absolute;
+            left: 980px;
+        }
+
+        .rightrighttext h3 {
+            font-size: 15px;
+            position: absolute;
+            left: 980px;
+            margin-top: 60px;
+        }
+
+        .rightrighttext h4 {
+            font-size: 15px;
+            position: absolute;
+            left: 980px;
+            margin-top: 110px;
+        }
+
+        .rightrighttext h5 {
+            font-size: 15px;
+            position: absolute;
+            left: 980px;
+            margin-top: 160px;
+        }
+
+        .fifthpage {
+            margin-top: 500px;
+        }
+
+        .textfifth p {
+            text-align: center;
+            background-color: rgba(72, 134, 72, 0.253);
+            width: 150px;
+            margin-left: 660px;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .textfifth h1 {
+            text-align: center;
+        }
+
+        .fifthpage h6 {
+            font-size: 15px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .firstwave h1 {
+            font-size: 20px;
+            position: absolute;
+            left: 210px;
+            top: 3171px;
+        }
+
+        .firstwave p {
+            position: absolute;
+            top: 3210px;
+            left: 170px;
+            color: slategray;
+            width: 160px;
+            text-align: center;
+        }
+
+        .secondwave h1 {
+            font-size: 20px;
+            position: absolute;
+            left: 500px;
+        }
+
+        .secondwave p {
+            position: absolute;
+            top: 3210px;
+            left: 500px;
+            color: slategray;
+            width: 160px;
+            text-align: center;
+        }
+
+        .thirdwave h1 {
+            font-size: 20px;
+            position: absolute;
+            left: 830px;
+        }
+
+        .thirdwave p {
+            position: absolute;
+            top: 3210px;
+            left: 830px;
+            color: slategray;
+            width: 160px;
+            text-align: center;
+        }
+
+        .fourthwave h1 {
+            font-size: 20px;
+            position: absolute;
+            left: 1170px;
+        }
+
+        .fourthwave p {
+            position: absolute;
+            top: 3210px;
+            left: 1170px;
+            color: slategray;
+            width: 160px;
+            text-align: center;
+        }
+
+        .onee {
+            height: 90px;
+            padding-top: 40px;
+            margin-left: 190px;
+        }
+
+        .twoo {
+            position: absolute;
+            height: 90px;
+            top: 3088px;
+            margin-left: 600px;
+            padding-left: 510px;
+        }
+
+        .threee {
+            position: absolute;
+            height: 90px;
+            top: 3088px;
+            padding-left: 840px;
+        }
+
+        .fourr {
+            position: absolute;
+            height: 90px;
+            top: 3088px;
+            margin-left: 190px;
+            padding-left: 1164px;
+        }
+
+        .strightline1 {
+            position: absolute;
+            top: 3088px;
+            left: 290px;
+        }
+
+        .strightline2 {
+            position: absolute;
+            top: 3099px;
+            left: 630px;
+        }
+
+        .strightline3 {
+            position: absolute;
+            top: 3088px;
+            left: 960px;
+        }
+
+        .lastblock {
+            margin-top: 290px;
+            height: 300px;
+            margin-left: 100px;
+            width: 1300px;
+            border-radius: 30px;
+            background-color: rgba(8, 26, 8, 0.925);
+            display: flex;
+            gap: 330px;
+            color: white;
+        }
+
+        .textlastf {
+            text-align: center;
+            margin-top: 80px;
+            margin-left: 50px;
+        }
+
+        .textlasts {
+            text-align: center;
+            margin-top: 80px;
+            margin-left: 50px;
+        }
+
+        .textlastt {
+            text-align: center;
+            margin-top: 80px;
+            margin-left: 50px;
+        }
+
+        .fifthtext {
+            margin-top: -350px;
+        }
+
+        .fifthtext p {
+            text-align: center;
+            background-color: rgba(72, 134, 72, 0.253);
+            width: 150px;
+            margin-left: 660px;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .fifthtext h1 {
+            text-align: center;
+        }
+
+        .firstrow {
+            display: flex;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .firstbox1 {
+            border: 2px solid black;
+            border-radius: 40px;
+        }
+
+        .firstbox2 {
+            border: 2px solid black;
+            border-radius: 40px;
+        }
+
+        .firstbox3 {
+            border: 2px solid black;
+            border-radius: 40px;
+        }
+
+        .secondbox1 {
+            border: 2px solid black;
+            border-radius: 40px;
+        }
+
+        .secondbox2 {
+            border: 2px solid black;
+            border-radius: 40px;
+        }
+
+        .secondbox3 {
+            border: 2px solid black;
+            border-radius: 40px;
+        }
+
+        .firstrow .firstbox1 {
+            margin-top: 50px;
+            height: 350px;
+            width: 300px;
+            border: 1px solid slategray;
+            margin-left: 190px;
+            border-radius: 15px;
+        }
+
+        .firstrow .firstbox2 {
+            margin-top: 50px;
+            height: 350px;
+            width: 300px;
+            border: 1px solid slategray;
+            margin-left: 120px;
+            border-radius: 15px;
+        }
+
+        .firstrow .firstbox3 {
+            margin-top: 50px;
+            height: 350px;
+            width: 300px;
+            border: 1px solid slategray;
+            margin-left: 120px;
+            border-radius: 15px;
+        }
+
+        .secondrow {
+            display: flex;
+        }
+
+        .secondrow .secondbox1 {
+            margin-top: 50px;
+            height: 350px;
+            width: 300px;
+            border: 1px solid slategray;
+            margin-left: 190px;
+            border-radius: 15px;
+        }
+
+        .secondrow .secondbox2 {
+            margin-top: 50px;
+            height: 350px;
+            width: 300px;
+            border: 1px solid slategray;
+            margin-left: 120px;
+            border-radius: 15px;
+        }
+
+        .secondrow .secondbox3 {
+            margin-top: 50px;
+            height: 350px;
+            width: 300px;
+            border: 1px solid slategray;
+            margin-left: 120px;
+            border-radius: 15px;
+        }
+
+        .firstbox1 img {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .firstbox2 img {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .firstbox3 img {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .secondbox1 img {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .secondbox2 img {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .secondbox3 img {
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .firstbox1 h5 {
+            font-size: 20px;
+            margin-top: 1px;
+            margin-left: 20px;
+        }
+
+        .firstbox2 h5 {
+            font-size: 20px;
+            margin-top: 1px;
+            margin-left: 20px;
+        }
+
+        .firstbox3 h5 {
+            font-size: 20px;
+            margin-top: 1px;
+            margin-left: 20px;
+        }
+
+        .secondbox1 h5 {
+            font-size: 20px;
+            margin-top: 1px;
+            margin-left: 20px;
+        }
+
+        .secondbox2 h5 {
+            font-size: 20px;
+            margin-top: 1px;
+            margin-left: 20px;
+        }
+
+        .secondbox3 h5 {
+            font-size: 20px;
+            margin-top: 1px;
+            margin-left: 20px;
+        }
+
+        .firstbox1 h4 {
+            margin-top: -35px;
+            margin-left: 70px;
+        }
+
+        .firstbox1 p {
+            margin-left: 20px;
+        }
+
+        .firstbox2 h4 {
+            margin-top: -35px;
+            margin-left: 70px;
+        }
+
+        .firstbox2 p {
+            margin-left: 20px;
+        }
+
+        .firstbox3 h4 {
+            margin-top: -35px;
+            margin-left: 70px;
+        }
+
+        .firstbox3 p {
+            margin-left: 20px;
+        }
+
+        .secondbox1 h4 {
+            margin-top: -35px;
+            margin-left: 70px;
+        }
+
+        .secondbox1 p {
+            margin-left: 20px;
+        }
+
+        .secondbox2 h4 {
+            margin-top: -35px;
+            margin-left: 70px;
+        }
+
+        .secondbox2 p {
+            margin-left: 20px;
+        }
+
+        .secondbox3 h4 {
+            margin-top: -35px;
+            margin-left: 70px;
+        }
+
+        .secondbox3 p {
+            margin-left: 20px;
+        }
+
+        .sixthpage p {
+            color: slategray;
+        }
+
+        .sixthtext p {
+            text-align: center;
+            background-color: rgba(72, 134, 72, 0.253);
+            width: 150px;
+            margin-left: 680px;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .sixthtext h1 {
+            text-align: center;
+        }
+
+        .firstrow1 {
+            display: flex;
+        }
+
+        .firstrow1 .firstbox11 {
+            margin-top: 50px;
+            height: 500px;
+            width: 300px;
+            border: 1px solid slategray;
+            margin-left: 190px;
+            border-radius: 15px;
+        }
+
+        .firstrow1 .firstbox22 {
+            margin-top: 50px;
+            height: 200px;
+            width: 300px;
+            border: 1px solid slategray;
+            margin-left: 120px;
+            border-radius: 15px;
+        }
+
+        .firstrow1 .firstbox33 {
+            margin-top: 50px;
+            height: 500px;
+            width: 300px;
+            border: 1px solid slategray;
+            margin-left: 120px;
+            border-radius: 15px
+        }
+
+        .secondrow2 {
+            display: flex;
+        }
+
+        .secondrow2 .firstbox111 {
+            margin-top: 10px;
+            height: 200px;
+            width: 300px;
+            border: 1px solid slategray;
+            margin-left: 190px;
+            border-radius: 15px;
+        }
+
+        .secondrow2 .firstbox222 {
+            margin-top: -290px;
+            height: 500px;
+            width: 300px;
+            border: 1px solid slategray;
+            margin-left: 120px;
+            border-radius: 15px;
+        }
+
+        .secondrow2 .firstbox333 {
+            margin-top: 10px;
+            height: 200px;
+            width: 300px;
+            border: 1px solid slategray;
+            margin-left: 120px;
+            border-radius: 15px;
+        }
+
+
+        .seventhtext p {
+            text-align: center;
+            background-color: rgba(72, 134, 72, 0.253);
+            width: 150px;
+            margin-left: 680px;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .seventhtext h1 {
+            text-align: center;
+        }
+
+        .seventhtext pre {
+            text-align: center;
+            color: slategray;
+        }
+
+        .topboxseven {
+            height: 170px;
+            margin-left: 250px;
+            width: 960px;
+            background-color: whitesmoke;
+        }
+
+        .topboxseven h4 {
+            margin-top: 20px;
+            margin-left: 20px;
+            font-size: 20px;
+            color: slategray;
+        }
+
+        .topboxseven h3 {
+            color: slategray;
+            margin-top: -50px;
+            margin-left: 900px;
+            width: 40px;
+        }
+
+        .topboxseven hr {
+            color: slategray;
+        }
+
+        .topboxseven p {
+            color: slategray;
+            margin-left: 20px;
+            width: 800px;
+        }
+
+        .firstseven {
+            padding-top: 10px;
+            height: 80px;
+            width: 960px;
+            margin-top: 20px;
+            margin-left: 250px;
+            background-color: whitesmoke;
+        }
+
+        .secondseven {
+            padding-top: 10px;
+            height: 80px;
+            width: 960px;
+            margin-top: 20px;
+            margin-left: 250px;
+            background-color: whitesmoke;
+        }
+
+        .thirdseven {
+            padding-top: 10px;
+            height: 80px;
+            width: 960px;
+            margin-top: 20px;
+            margin-left: 250px;
+            background-color: whitesmoke;
+        }
+
+        .firstseven h1 {
+            margin-left: 900px;
+            margin-top: -40px;
+        }
+
+        .secondseven h1 {
+            margin-left: 900px;
+            margin-top: -40px;
+        }
+
+        .thirdseven h1 {
+            margin-left: 900px;
+            margin-top: -40px;
+        }
+
+        .eightpagetext p {
+            text-align: center;
+            background-color: rgba(72, 134, 72, 0.253);
+            width: 150px;
+            margin-left: 680px;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .eightpagetext h1 {
+            text-align: center;
+
+        }
+
+        .nextpara {
+            text-align: center;
+        }
+
+        .firstinfo img {
+            height: 50px;
+            margin-top: 90px;
+            margin-left: 60px;
+        }
+
+        .firstinfo p {
+            margin-top: -45px;
+            margin-left: 140px;
+            color: slategray;
+        }
+
+        .seconddinfo img {
+            height: 55px;
+            width: 60px;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+
+        .seconddinfo p {
+            margin-top: -50px;
+            margin-left: 140px;
+            color: slategray;
+        }
+
+        .thirddinfo img {
+            height: 55px;
+            width: 60px;
+            margin-top: 25px;
+            margin-left: 60px;
+        }
+
+        .thirddinfo p {
+            margin-top: -50px;
+            margin-left: 141px;
+            color: slategray;
+        }
+
+        .info {
+            margin-left: 220px;
+        }
+
+        form {
+            margin-top: -240px;
+            margin-left: 871px;
+        }
+
+        form h3 {
+            color: slategray;
+        }
+
+        input[type=text] {
+            width: 200px;
+            height: 30px;
+            border-radius: 15px;
+        }
+
+        input[type=message] {
+            border-radius: 15px;
+            width: 200px;
+            height: 90px;
+        }
+
+        form button {
+            margin-top: 20px;
+            height: 60px;
+            background-color: rgb(44, 80, 44);
+            color: white;
+        }
+
+        .lasttpage {
+            height: 600px;
+            margin-left: 150px;
+            width: 1200px;
+            background-color: whitesmoke;
+        }
+
+        .topptext h4 {
+            margin-left: 120px;
+            padding-top: 40px;
+        }
+
+        .topptext p {
+            margin-left: 120px;
+        }
+
+        .buttontop {
+            margin-right: 50px;
+            padding-left: 850px;
+            margin-top: -60px;
+        }
+
+        .buttontop button {
+            padding: 10px;
+            background-color: rgb(44, 80, 44);
+            color: white;
+        }
+
+        input[type=gmail] {
+            width: 200px;
+            height: 35px;
+        }
+
+        .aboutleft {
+            margin-top: 150px;
+            padding-left: 120px;
+        }
+
+        .aboutleft p {
+            width: 200px;
+        }
+
+        li {
+            list-style-type: none;
+            color: slategray;
+            padding: 9px;
+        }
+
+        .rightttt {
+            margin-top: -150px;
+            margin-left: 400px;
+        }
+
+        .rightttt h3 {
+            margin-left: 40px;
+        }
+
+        .righttttt {
+            margin-top: -275px;
+            margin-left: 600px;
+        }
+
+        .righttttt h3 {
+            margin-left: 40px;
+        }
+
+        .rightttttt {
+            margin-top: -240px;
+            margin-left: 800px;
+        }
+
+        .rightttttt h3 {
+            margin-left: 40px;
+        }
+
+        @media screen and (max-width:768px) and (min-width:426px) {
+
+            * {
+                font-family: 'Inter', sans-serif;
+            }
+
+            .navmain {
+                margin-left: -300px;
+            }
+
+            .cornerlogo img {
+                height: 50px;
+                width: 60px;
+                margin-top: -4px;
+                margin-left: 330px;
+            }
+
+            .nav .elements {
+                position: absolute;
+                margin-left: 520px;
+                top: 22px;
+                display: none;
+            }
+
+            .navbutton button {
+                padding: 10px;
+                background-color: rgb(9, 155, 9);
+                color: white;
+                position: absolute;
+                top: 15px;
+                right: 90px;
+            }
+
+            .info {
+                margin-left: 1px;
+            }
+
+            .innovative p {
+                text-align: center;
+                padding-top: 2px;
+                color: rgb(9, 155, 9);
+                font-size: 16px;
+                font-family: 'Inter', sans-serif;
+                margin-top: -70px;
+            }
+
+            .infoheading h1 {
+                font-size: 60px;
+                margin-top: 10px;
+            }
+
+            .buttoninfo button {
+                padding: 15px 9px;
+            }
+
+            .infop p {
+                font-size: 10px;
+                color: rgba(16, 194, 16, 0.897);
+            }
+
+            .info img {
+                margin-top: -20px;
+                height: 60px;
+                margin-left: -28px;
+            }
+
+            .rightimginfo img {
+                position: absolute;
+                padding-left: -100px;
+                height: 600px;
+                left: 33px;
+                width: 100%;
+                top: 94%;
+                border-radius: 40px;
+            }
+
+            .secondinfo {
+                margin-top: 90px;
+                margin-left: 100px;
+            }
+
+            .secondinfo img {
+                height: 300px;
+                width: 300px;
+                margin-top: 600px;
+                margin-left: -100px;
+                border-radius: 40px;
+            }
+
+            .secondleftinfo .infoimg {
+                margin-top: 10px;
+                background-color: rgba(12, 102, 12, 0.808);
+                height: 200px;
+                width: 300px;
+                border-radius: 40px;
+                position: absolute;
+                left: 10px;
+            }
+
+            .infoimg h5 {
+                color: white;
+                font-size: 12px;
+                margin-top: 30px;
+                margin-left: 40px;
+            }
+
+            .infoimg p {
+                margin-left: 40px;
+                margin-top: 40px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: white;
+            }
+
+            .rightaboutus p1 {
+                color: rgb(9, 155, 9);
+                font-size: 16px;
+                font-family: 'Inter', sans-serif;
+                position: absolute;
+                top: 1280px;
+                margin-left: 250px;
+                background-color: rgba(62, 173, 62, 0.301);
+                width: 77px;
+                border-radius: 40px;
+                text-align: center;
+            }
+
+            .rightaboutus p2 {
+                position: absolute;
+                top: 1300px;
+                margin-left: 250px;
+                font-size: 20px;
+            }
+
+            .rightaboutus p3 {
+                color: slategray;
+                position: absolute;
+                top: 1380px;
+                margin-left: 250px;
+                width: 340px;
+            }
+
+            .rightaboutus p4 {
+                color: slategray;
+                position: absolute;
+                top: 1480px;
+                margin-left: 250px;
+            }
+
+            .rightaboutus p {
+                color: black;
+                position: absolute;
+                top: 1600px;
+                margin-left: 250px;
+            }
+
+            .rightaboutus p5 {
+                color: slategray;
+                position: absolute;
+                top: 1630px;
+                margin-left: 250px;
+            }
+
+            .thirdinfo {
+                background-color: rgba(72, 134, 72, 0.253);
+                height: 800px;
+                width: 754px;
+                margin-left: -2px;
+                margin-top: 260px;
+                border-radius: 0px;
+            }
+
+            .leftinfo {
+                position: absolute;
+                margin-left: 40px;
+                top: 1860px;
+                font-size: 20px;
+            }
+
+            .leftinfo p {
+                font-size: 21px;
+                margin-top: 50px;
+                text-align: justify;
+                color: slategray;
+                width: 1200px;
+            }
+
+            .button1 {
+                margin-top: 40px;
+                height: 60px;
+                width: 190px;
+                border-radius: 9px;
+                background-color: forestgreen;
+            }
+
+            .button1 .playbutton {
+                position: absolute;
+                top: 300px;
+                left: 10px;
+            }
+
+            .playbutton h4 {
+                color: white;
+                font-size: 17px;
+                width: 200px;
+                position: absolute;
+                top: -20px;
+                left: 30px;
+            }
+
+            .firstbox {
+                position: absolute;
+                right: 560px;
+                left: 100px;
+                top: 2280px;
+                font-size: 30px;
+                width: 800px;
+            }
+
+            .firstbox .p1 {
+                font-size: 20px;
+            }
+
+            .firstbox p {
+                color: slategray;
+                font-size: 15px;
+            }
+
+            .secondbox {
+                position: absolute;
+                right: 80px;
+                top: 2280px;
+                font-size: 30px;
+            }
+
+            .secondbox p1 {
+                font-size: 20px;
+            }
+
+            .secondbox p {
+                color: slategray;
+                font-size: 15px;
+            }
+
+            .thirdbox {
+                position: absolute;
+                left: 100px;
+                font-size: 30px;
+                top: 2480px;
+                width: 300px;
+            }
+
+            .thirdbox p1 {
+                font-size: 20px;
+            }
+
+            .thirdbox p {
+                color: slategray;
+                font-size: 15px;
+            }
+
+            .fourthbox {
+                position: absolute;
+                right: 50px;
+                font-size: 30px;
+                top: 2480px;
+                width: 300px;
+            }
+
+            .fourthbox p1 {
+                font-size: 20px;
+            }
+
+            .fourthbox p {
+                color: slategray;
+                font-size: 15px;
+            }
+
+            .fourthpage p1 {
+                text-align: center;
+                background-color: rgba(72, 134, 72, 0.253);
+                width: 150px;
+                margin-left: 320px;
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .fourthpage p,
+            h2 {
+                text-align: center;
+            }
+
+            .fourthpage h2 {
+                font-size: 30px;
+            }
+
+            .leftfourth {
+                height: 400px;
+                width: 200px;
+                border: 1px solid black;
+                margin-left: 10px;
+                border-radius: 20px;
+                float: left;
+                font-size: 15px;
+            }
+
+            .textfourth {
+                margin-left: 30px;
+            }
+
+            .textfourth h4 {
+                font-size: 20px;
+            }
+
+            .textfourth p {
+                color: slategray;
+                font-size: 1px;
+                margin-left: -5px;
+                width: 150px;
+                line-height: 20px;
+            }
+
+            .textfourth h3 {
+                font-size: 25px;
+                width: 60px;
+            }
+
+            .textfourth button {
+                padding: 10px;
+                border-radius: 9px;
+                background-color: rgba(72, 134, 72, 0.63);
+            }
+
+            .rightfourth {
+                height: 400px;
+                width: 530px;
+                border: 1px solid rgb(255, 255, 255);
+                margin-top: -400px;
+                margin-left: 220px;
+                border-radius: 20px;
+                float: left;
+                background-color: rgba(72, 134, 72, 0.63);
+            }
+
+            .rightfourthtext {
+                margin-left: 40px;
+                font-size: 15px;
+                color: rgb(7, 7, 7);
+            }
+
+            .rightfourthtext p {
+                margin-left: -507px;
+                font-size: 12px;
+                width: px;
+            }
+
+            .rightfourthtext h3 {
+                font-size: 30px;
+                width: 60px;
+            }
+
+            .rightfourthtext button {
+                padding: 5px;
+                margin-left: -10px;
+                border-radius: 9px;
+                background-color: rgba(72, 134, 72, 0.63);
+            }
+
+            .rightrighttext {
+                color: rgb(0, 0, 0);
+                margin-left: 60px;
+            }
+
+            .rightrighttext p {
+                margin-top: -265px;
+                margin-right: -180px;
+                color: white;
+
+            }
+
+            .rightrighttext h2 {
+                font-size: 10px;
+                position: absolute;
+                left: 480px;
+                top: 2960px;
+            }
+
+            .rightrighttext h3 {
+                font-size: 10px;
+                position: absolute;
+                left: 490px;
+                top: 2967px;
+            }
+
+            .rightrighttext h4 {
+                font-size: 10px;
+                position: absolute;
+                left: 490px;
+                top: 2960px;
+            }
+
+            .rightrighttext h5 {
+                font-size: 10px;
+                position: absolute;
+                left: 490px;
+                top: 2960px;
+            }
+
+            .fifthpage {
+                margin-top: 500px;
+            }
+
+            .textfifth p {
+                text-align: center;
+                background-color: rgba(72, 134, 72, 0.253);
+                width: 150px;
+                margin-left: 300px;
+                font-size: 15px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .textfifth h1 {
+                text-align: center;
+                font-size: 30px;
+            }
+
+            .fifthpage h6 {
+                font-size: 15px;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .strightline1 {
+                display: none;
+            }
+
+            .strightline2 {
+                display: none;
+            }
+
+            .strightline3 {
+                display: none;
+            }
+
+            .firstwave h1 {
+                font-size: 15px;
+                position: absolute;
+                left: 90px;
+            }
+
+            .firstwave p {
+                position: absolute;
+                top: 3710px;
+                left: 60px;
+                color: slategray;
+                width: 160px;
+                text-align: center;
+            }
+
+            .secondwave h1 {
+                font-size: 15px;
+                position: absolute;
+                left: 230px;
+            }
+
+            .secondwave p {
+                position: absolute;
+                top: 3710px;
+                left: 225px;
+                color: slategray;
+                width: 160px;
+                text-align: center;
+            }
+
+            .thirdwave h1 {
+                font-size: 15px;
+                position: absolute;
+                left: 400px;
+            }
+
+            .thirdwave p {
+                position: absolute;
+                top: 3710px;
+                left: 380px;
+                color: slategray;
+                width: 160px;
+                text-align: center;
+            }
+
+            .fourthwave h1 {
+                font-size: 15px;
+                position: absolute;
+                left: 560px;
+            }
+
+            .fourthwave p {
+                position: absolute;
+                top: 3710px;
+                left: 540px;
+                color: slategray;
+                width: 160px;
+                text-align: center;
+            }
+
+            .onee {
+                height: 50px;
+                padding-top: 40px;
+                margin-left: 100px;
+            }
+
+            .twoo {
+                position: absolute;
+                height: 50px;
+                top: 3626px;
+                margin-left: 600px;
+                padding-left: 247px;
+            }
+
+            .threee {
+                position: absolute;
+                height: 50px;
+                top: 3626px;
+                margin-left: 600px;
+                padding-left: 400px;
+            }
+
+            .fourr {
+                position: absolute;
+                height: 50px;
+                top: 3626px;
+                margin-left: 600px;
+                padding-left: 570px;
+            }
+
+            .strightline1 {
+                position: absolute;
+                top: 3626px;
+                left: 290px;
+            }
+
+            .strightline2 {
+                position: absolute;
+                top: 3099px;
+                left: 630px;
+            }
+
+            .strightline3 {
+                position: absolute;
+                top: 3088px;
+                left: 960px;
+            }
+
+            .lastblock {
+                margin-top: 290px;
+                height: 300px;
+                margin-left: 10px;
+                width: 730px;
+                border-radius: 30px;
+                background-color: rgba(8, 26, 8, 0.925);
+                display: flex;
+                gap: 330px;
+                color: white;
+            }
+
+            .textlastf {
+                text-align: center;
+                margin-top: 80px;
+                margin-left: 10px;
+                font-size: 15px;
+            }
+
+            .textlasts {
+                text-align: center;
+                margin-top: 80px;
+                margin-left: -200px;
+                font-size: 15px;
+            }
+
+            .textlastt {
+                text-align: center;
+                margin-top: 80px;
+                margin-left: -200px;
+                font-size: 15px;
+            }
+
+            .fifthtext {
+                margin-top: -450px;
+            }
+
+            .fifthtext p {
+                text-align: center;
+                background-color: rgba(72, 134, 72, 0.253);
+                width: 150px;
+                margin-left: 300px;
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .fifthtext h1 {
+                text-align: center;
+            }
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto;
+                gap: 30px;
+            }
+
+            .firstbox1 {
+                border: 2px solid black;
+                border-radius: 40px;
+            }
+
+            .firstbox2 {
+                border: 2px solid black;
+                border-radius: 40px;
+            }
+
+            .firstbox3 {
+                border: 2px solid black;
+                border-radius: 40px;
+            }
+
+            .secondbox1 {
+                border: 2px solid black;
+                border-radius: 40px;
+            }
+
+            .secondbox2 {
+                border: 2px solid black;
+                border-radius: 40px;
+            }
+
+            .secondbox3 {
+                border: 2px solid black;
+                border-radius: 40px;
+            }
+
+            .sixthtext p {
+                text-align: center;
+                background-color: rgba(72, 134, 72, 0.253);
+                width: 150px;
+                margin-left: 300px;
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+
+            .firstrow1 .firstbox11 {
+                margin-top: 50px;
+                height: 200px;
+                width: 350px;
+                border: 1px solid slategray;
+                margin-left: 190px;
+                border-radius: 15px;
+                margin-left: 10px;
+            }
+
+            .firstface {
+                margin-top: -290px;
+            }
+
+            .firstrow1 .firstbox22 {
+                margin-top: 50px;
+                height: 200px;
+                width: 300px;
+                border: 1px solid slategray;
+                margin-left: 120px;
+                border-radius: 15px;
+                margin-left: 40px;
+            }
+
+            .firstrow1 .firstbox33 {
+                margin-top: 300px;
+                height: 250px;
+                width: 350px;
+                border: 1px solid slategray;
+                margin-left: -690px;
+                border-radius: 15px
+            }
+
+            .thirdface {
+                margin-top: -230px;
+            }
+
+
+            .secondrow2 .firstbox111 {
+                margin-top: 10px;
+                height: 200px;
+                width: 420px;
+                border: 1px solid slategray;
+                margin-left: 10px;
+                border-radius: 15px;
+            }
+
+            .secondrow2 .firstbox222 {
+                margin-top: -250px;
+                height: 300px;
+                width: 400px;
+                border: 1px solid slategray;
+                margin-left: 90px;
+                border-radius: 15px;
+                font-size: 12px;
+            }
+
+            .fifthface {
+                margin-top: -150px;
+            }
+
+            .secondrow2 .firstbox333 {
+                margin-top: 10px;
+                height: 100px;
+                width: 300px;
+                border: 1px solid slategray;
+                margin-left: -750px;
+                border-radius: 15px;
+                display: none;
+            }
+
+            .seventhtext p {
+                text-align: center;
+                background-color: rgba(72, 134, 72, 0.253);
+                width: 150px;
+                margin-left: 300px;
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .seventhtext h1 {
+                text-align: center;
+                font-size: 20px;
+            }
+
+            .seventhtext pre {
+                text-align: center;
+                color: slategray;
+            }
+
+            .topboxseven {
+                height: 170px;
+                margin-left: 10px;
+                width: 730px;
+                background-color: whitesmoke;
+            }
+
+            .topboxseven h4 {
+                margin-top: 20px;
+                margin-left: 20px;
+                font-size: 20px;
+                color: slategray;
+            }
+
+            .topboxseven h3 {
+                color: slategray;
+                margin-top: -50px;
+                margin-left: 702px;
+                width: 40px;
+            }
+
+            .topboxseven hr {
+                color: slategray;
+            }
+
+            .topboxseven p {
+                color: slategray;
+                margin-left: 20px;
+                width: 700px;
+            }
+
+            .firstseven {
+                padding-top: 10px;
+                height: 80px;
+                width: 730px;
+                margin-top: 20px;
+                margin-left: 10px;
+                background-color: whitesmoke;
+            }
+
+            .secondseven {
+                padding-top: 10px;
+                height: 80px;
+                width: 730px;
+                margin-top: 20px;
+                margin-left: 10px;
+                background-color: whitesmoke;
+            }
+
+            .thirdseven {
+                padding-top: 10px;
+                height: 80px;
+                width: 730px;
+                margin-top: 20px;
+                margin-left: 10px;
+                background-color: whitesmoke;
+            }
+
+            .firstseven h1 {
+                margin-left: 700px;
+                padding-top: 20px;
+            }
+
+            .firstseven h3 {
+                margin-left: 20px;
+            }
+
+            .secondseven h1 {
+                margin-left: 700px;
+                padding-top: 20px;
+            }
+
+            .secondseven h3 {
+                margin-left: 20px;
+            }
+
+            .thirdseven h1 {
+                margin-left: 700px;
+                padding-top: 20px;
+            }
+
+            .thirdseven h3 {
+                margin-left: 20px;
+            }
+
+            .eightpagetext p {
+                text-align: center;
+                background-color: rgba(72, 134, 72, 0.253);
+                width: 150px;
+                margin-left: 300px;
+                font-size: 15px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .eightpagetext h1 {
+                text-align: center;
+                font-size: 20px;
+            }
+
+            .nextpara {
+                text-align: center;
+                width: 600px;
+                margin-left: 70px;
+            }
+
+            .firstinfo img {
+                height: 50px;
+                margin-top: 90px;
+                margin-left: 40px;
+            }
+
+            .firstinfo p {
+                margin-top: -45px;
+                margin-left: 120px;
+                color: slategray;
+            }
+
+            .seconddinfo img {
+                height: 55px;
+                width: 60px;
+                margin-top: 20px;
+                margin-left: 40px;
+            }
+
+            .seconddinfo p {
+                margin-top: -50px;
+                margin-left: 120px;
+                color: slategray;
+            }
+
+            .thirddinfo img {
+                height: 55px;
+                width: 60px;
+                margin-top: 25px;
+                margin-left: 40px;
+            }
+
+            .thirddinfo p {
+                margin-top: -50px;
+                margin-left: 120px;
+                color: slategray;
+            }
+
+            .info {
+                margin-left: px;
+            }
+
+            form {
+                margin-top: -240px;
+                margin-left: 430px;
+            }
+
+            form h3 {
+                color: slategray;
+            }
+
+            input[type=text] {
+                width: 200px;
+                height: 30px;
+                border-radius: 15px;
+            }
+
+            input[type=message] {
+                border-radius: 15px;
+                width: 200px;
+                height: 90px;
+            }
+
+            form button {
+                margin-top: 20px;
+                height: 60px;
+                background-color: rgb(44, 80, 44);
+                color: white;
+            }
+
+            .lasttpage {
+                height: 600px;
+                margin-left: 2px;
+                width: 750px;
+                background-color: whitesmoke;
+            }
+
+            .topptext h4 {
+                margin-left: 30px;
+                padding-top: 40px;
+            }
+
+            .topptext p {
+                margin-left: 30px;
+                width: 100px;
+            }
+
+            .buttontop {
+                margin-right: 50px;
+                padding-left: 290px;
+                margin-top: -150px;
+            }
+
+            .buttontop button {
+                padding: 10px;
+                background-color: rgb(44, 80, 44);
+                color: white;
+            }
+
+            input[type=gmail] {
+                width: 200px;
+                height: 35px;
+            }
+
+            .aboutleft {
+                margin-top: 150px;
+                padding-left: 30px;
+            }
+
+            .aboutleft p {
+                width: 200px;
+            }
+
+            li {
+                list-style-type: none;
+                color: slategray;
+                padding: 9px;
+            }
+
+            .rightttt {
+                margin-top: -150px;
+                margin-left: 210px;
+            }
+
+            .rightttt h3 {
+                margin-left: 40px;
+            }
+
+            .righttttt {
+                margin-top: -254px;
+                margin-left: 370px;
+            }
+
+            .righttttt h3 {
+                margin-left: 40px;
+            }
+
+            .rightttttt {
+                margin-top: -220px;
+                margin-left: 510px;
+                width: 150px;
+            }
+
+            .rightttttt h3 {
+                margin-left: 40px;
+            }
+
+
+        }
+
+        @media screen and (max-width:425px) and (min-width:375px) {
+            * {
+                font-family: 'Inter', sans-serif;
+            }
+
+            .navmain {
+                margin-left: -200px;
+            }
+
+            .cornerlogo img {
+                height: 56px;
+                width: 60px;
+                margin-top: -3px;
+                margin-left: 213px;
+            }
+
+            .cornerlogo h2 {
+                margin-top: 8px;
+                font-size: 25px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            .nav .elements {
+                position: absolute;
+                margin-left: 520px;
+                top: 22px;
+            }
+
+            .elements a {
+                padding: 0px 25px;
+                display: none;
+                text-decoration: none;
+                color: rgba(56, 56, 56, 0.808);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            .elements .Home {
+                border-bottom: 2px solid black;
+                border-width: 3px;
+            }
+
+            .navbutton button {
+                padding: 10px;
+                background-color: rgb(9, 155, 9);
+                color: white;
+                position: absolute;
+                top: 15px;
+                right: 50px;
+                display: none;
+            }
+
+            .navbutton hr {
+                border-width: 4px;
+                margin-top: -20px;
+                width: 100%;
+                border-top: 2px solid black;
+            }
+
+            .info {
+                margin-left: 10px;
+            }
+
+            .infodata {
+                margin-left: 10px;
+            }
+
+            .infodata p {
+                margin-left: -200px;
+            }
+
+            .buttoninfo {
+                margin-left: -200px;
+            }
+
+            .infop {
+                margin-left: -200px;
+            }
+
+            .innovative {
+                height: 20px;
+                background-color: rgba(62, 173, 62, 0.301);
+                width: 260px;
+                padding: 0 12px;
+                margin-top: 100px;
+                border-radius: 40px;
+                text-align: center;
+                margin-left: -179px;
+            }
+
+            .innovative p {
+                text-align: center;
+                color: rgb(9, 155, 9);
+                font-size: 16px;
+                font-family: 'Inter', sans-serif;
+                margin-left: -9px;
+            }
+
+            .infoheading h1 {
+                font-size: 40px;
+                margin-left: -188px;
+            }
+
+            .info img {
+                height: 60px;
+                margin-left: -20px;
+            }
+
+            .rightimginfo img {
+                position: absolute;
+                height: 350px;
+                top: 800px;
+                border-radius: 40px;
+                left: 30px;
+                width: 400px;
+            }
+
+            .secondinfo {
+                margin-top: 900px;
+                margin-left: 100px;
+            }
+
+            .secondinfo img {
+                height: 400px;
+                width: 400px;
+                border-radius: 40px;
+                margin-left: -93px;
+                margin-top: 93px;
+            }
+
+            .secondleftinfo .infoimg {
+                margin-top: 10px;
+                background-color: rgba(12, 102, 12, 0.808);
+                height: 200px;
+                width: 400px;
+                border-radius: 40px;
+                position: absolute;
+                left: 10px;
+            }
+
+            .infoimg h5 {
+                color: white;
+                font-size: 12px;
+                margin-top: 30px;
+                margin-left: 40px;
+            }
+
+            .infoimg p {
+                margin-left: 40px;
+                margin-top: 40px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: white;
+            }
+
+            .rightaboutus p1 {
+                color: rgb(9, 155, 9);
+                font-size: 16px;
+                font-family: 'Inter', sans-serif;
+                position: absolute;
+                top: 1177px;
+                margin-left: -88px;
+                background-color: rgba(62, 173, 62, 0.301);
+                width: 77px;
+                border-radius: 40px;
+                text-align: center;
+            }
+
+            .rightaboutus p2 {
+                position: absolute;
+                top: 1200px;
+                margin-left: -88px;
+                font-size: 29px;
+            }
+
+            .rightaboutus p3 {
+                color: slategray;
+                position: absolute;
+                top: 1342px;
+                margin-left: -88px;
+            }
+
+            .rightaboutus p4 {
+                color: slategray;
+                position: absolute;
+                top: 1437px;
+                margin-left: -88px
+            }
+
+            .rightaboutus p {
+                color: black;
+                position: absolute;
+                top: 1555px;
+                margin-left: -88px;
+            }
+
+            .rightaboutus p5 {
+                color: slategray;
+                position: absolute;
+                top: 1590px;
+                margin-left: -98px;
+                padding: 3px 10px;
+            }
+
+            .thirdinfo {
+                background-color: rgba(72, 134, 72, 0.253);
+                height: 1200px;
+                width: 400px;
+                margin-left: 10px;
+                margin-top: 230px;
+                border-radius: 20px;
+            }
+
+            .leftinfo {
+                position: absolute;
+                margin-left: 10px;
+                top: 2317px;
+                font-size: 20px;
+            }
+
+            .leftinfo p {
+                font-size: 15px;
+                margin-top: 80px;
+                text-align: justify;
+                color: slategray;
+                width: 400px;
+
+            }
+
+            .button1 {
+                margin-top: 39px;
+                height: 60px;
+                width: 190px;
+                border-radius: 9px;
+                background-color: forestgreen;
+            }
+
+            .button1 .playbutton {
+                position: absolute;
+                top: 380px;
+                left: 10px;
+            }
+
+            .playbutton h4 {
+                color: white;
+                font-size: 17px;
+                width: 200px;
+                position: absolute;
+                top: -106px;
+                left: 30px;
+            }
+
+            .playbutton1 {
+                margin-top: -84px;
+            }
+
+            .firstbox {
+                position: absolute;
+                left: 35px;
+                top: 2706px;
+                font-size: 30px;
+                width: 300px;
+            }
+
+            .firstbox p1 {
+                font-size: 15px;
+            }
+
+            .firstbox p {
+                color: slategray;
+                font-size: 15px;
+            }
+
+            .secondbox {
+                position: absolute;
+                left: 35px;
+                top: 2920px;
+                font-size: 30px;
+                width: 300px;
+            }
+
+            .secondbox p1 {
+                font-size: 20px;
+
+            }
+
+            .secondbox p {
+                color: slategray;
+                font-size: 15px;
+            }
+
+            .thirdbox {
+                position: absolute;
+                left: 35px;
+                top: 3148px;
+                font-size: 30px;
+                width: 300px;
+            }
+
+            .thirdbox p1 {
+                font-size: 20px;
+            }
+
+            .thirdbox p {
+                color: slategray;
+                font-size: 15px;
+            }
+
+            .fourthbox {
+                position: absolute;
+                left: 35px;
+                top: 3312px;
+                font-size: 30px;
+                width: 300px;
+            }
+
+            .fourthbox p1 {
+                font-size: 20px;
+            }
+
+            .fourthbox p {
+                color: slategray;
+                font-size: 15px;
+            }
+
+            .fourthpage p1 {
+                padding: 1px;
+                background-color: rgba(72, 134, 72, 0.253);
+                width: 150px;
+                margin-left: 170px;
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .fourthpage p,
+            h2 {
+                text-align: center;
+            }
+
+            .fourthpage h2 {
+                font-size: 30px;
+            }
+
+            .leftfourth {
+                height: 400px;
+                width: 400px;
+                border: 1px solid black;
+                margin-left: 6px;
+                border-radius: 20px;
+                float: left;
+            }
+
+            .textfourth {
+                margin-left: 20px;
+            }
+
+            .textfourth h4 {
+                font-size: 20px;
+            }
+
+            .textfourth p {
+                color: slategray;
+                font-size: 15px;
+                margin-left: -5px;
+                width: 320px;
+                line-height: 20px;
+            }
+
+            .textfourth h3 {
+                font-size: 40px;
+                width: 60px;
+            }
+
+            .textfourth button {
+                padding: 10px;
+                border-radius: 9px;
+                background-color: rgba(72, 134, 72, 0.63);
+            }
+
+            .rightfourth {
+                margin-top: 10px;
+                height: 750px;
+                width: 399px;
+                border: 1px solid black;
+                margin-left: 6px;
+                border-radius: 20px;
+                float: left;
+                background-color: rgba(72, 134, 72, 0.63);
+            }
+
+            .rightfourthtext {
+                margin-left: 22px;
+                color: white;
+            }
+
+            .rightfourth h1 {
+                font-size: 30px;
+            }
+
+            .rightfourth p {
+                font-size: 15px;
+            }
+
+            .rightrighttext {
+                color: rgb(0, 0, 0);
+                margin-left: 60px;
+                font-size: 22px;
+            }
+
+            .rightrighttext p {
+                margin-top: 26px;
+                margin-left: -310px;
+                font-size: 24px;
+            }
+
+            .rightrighttext h2 {
+                font-size: 15px;
+                position: absolute;
+                margin-top: -50px;
+                left: 40px;
+            }
+
+            .rightrighttext h3 {
+                font-size: 15px;
+                position: absolute;
+                margin-top: 0px;
+                left: 40px;
+            }
+
+            .rightrighttext h4 {
+                font-size: 15px;
+                position: absolute;
+                margin-top: 50px;
+                left: 40px;
+            }
+
+            .rightrighttext h5 {
+                font-size: 15px;
+                position: absolute;
+                margin-top: 100px;
+                left: 40px;
+            }
+
+            .fifthpage {
+                margin-top: 700px;
+            }
+
+            .textfifth p {
+                text-align: center;
+                margin-top: -40px;
+                background-color: rgba(72, 134, 72, 0.253);
+                color: rgba(28, 142, 28, 0.738);
+                width: 150px;
+                margin-left: 120px;
+                font-size: 12px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .textfifth h1 {
+                text-align: center;
+            }
+
+            .fifthpage h6 {
+                font-size: 15px;
+                text-align: center;
+                text-decoration: none;
+                margin-top: -22pxs;
+            }
+
+            .strightline1 {
+                display: none;
+            }
+
+            .strightline2 {
+                display: none;
+            }
+
+            .strightline3 {
+                display: none;
+            }
+
+            .one1 {
+                margin-top: -60px;
+                margin-left: -85px;
+            }
+
+            .two2 {
+                position: absolute;
+                top: 2100px;
+                margin-left: 100px;
+            }
+
+            .three3 {
+                position: absolute;
+                top: 2299px;
+                margin-left: 100px;
+            }
+
+            .four4 {
+                position: absolute;
+                top: 2499px;
+                margin-left: 100px;
+            }
+
+            .waves img {
+                height: 90px;
+                margin-top: 35px;
+                margin-left: 200px;
+                padding: 10px 48px;
+            }
+
+            .firstwave h1 {
+                font-size: 20px;
+                position: absolute;
+                left: 180px;
+                margin-top: -566px;
+                top: 5736px;
+            }
+
+            .firstwave p {
+                position: absolute;
+                top: 5145px;
+                left: 140px;
+                color: slategray;
+                width: 160px;
+                text-align: center;
+                font-size: 12px;
+            }
+
+            .secondwave h1 {
+                font-size: 20px;
+                position: absolute;
+                left: 140px;
+                margin-top: -410px;
+            }
+
+            .secondwave p {
+                position: absolute;
+                top: 5355px;
+                left: 140px;
+                color: slategray;
+                width: 160px;
+                text-align: center;
+                font-size: 12px;
+            }
+
+            .thirdwave h1 {
+                font-size: 20px;
+                position: absolute;
+                left: 140px;
+                margin-top: -210px;
+            }
+
+            .thirdwave p {
+                position: absolute;
+                top: 5555px;
+                left: 140px;
+                color: slategray;
+                width: 160px;
+                text-align: center;
+                font-size: 12px;
+            }
+
+            .fourthwave h1 {
+                font-size: 20px;
+                position: absolute;
+                left: 140px;
+                margin-top: -10px;
+            }
+
+            .fourthwave p {
+                position: absolute;
+                top: 5755px;
+                left: 140px;
+                color: slategray;
+                width: 160px;
+                text-align: center;
+                font-size: 12px;
+            }
+
+            .lastblock {
+                margin-top: 700px;
+                height: 500px;
+                margin-left: 10px;
+                width: 380px;
+                border-radius: 30px;
+                background-color: rgba(8, 26, 8, 0.925);
+                display: flex;
+                gap: 330px;
+                color: white;
+            }
+
+            .textlastf {
+                text-align: center;
+                margin-top: 18px;
+                margin-left: 128px;
+            }
+
+            .textlasts {
+                text-align: center;
+                margin-top: 191px;
+                margin-left: -467px;
+            }
+
+            .textlastt {
+                text-align: center;
+                margin-top: 350px;
+                margin-left: -450px;
+            }
+
+            .fifthtext {
+                margin-top: -600px;
+            }
+
+            .fifthtext p {
+                text-align: center;
+                background-color: rgba(72, 134, 72, 0.253);
+                width: 150px;
+                margin-left: 130px;
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .fifthtext h1 {
+                text-align: center;
+            }
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto;
+                gap: 30px;
+            }
+
+            .firstbox1 {
+                border: 2px solid black;
+                border-radius: 40px;
+            }
+
+            .firstbox2 {
+                border: 2px solid black;
+                border-radius: 40px;
+            }
+
+            .firstbox3 {
+                border: 2px solid black;
+                border-radius: 40px;
+            }
+
+            .secondbox1 {
+                border: 2px solid black;
+                border-radius: 40px;
+            }
+
+            .secondbox2 {
+                border: 2px solid black;
+                border-radius: 40px;
+            }
+
+            .secondbox3 {
+                border: 2px solid black;
+                border-radius: 40px;
+            }
+
+            .sixthtext p {
+                text-align: center;
+                background-color: rgba(72, 134, 72, 0.253);
+                width: 150px;
+                margin-left: 135px;
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .sixthtext h1 {
+                text-align: center;
+                font-size: 20px;
+            }
+
+            .grid-container2 {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+            }
+
+            .firstrow1 .firstbox11 {
+                margin-top: 50px;
+                height: 190px;
+                width: 300px;
+                border: 1px solid slategray;
+                margin-left: 50px;
+                border-radius: 15px;
+            }
+
+            .firstface img {
+                display: none;
+            }
+
+            .firstrow1 .firstbox22 {
+                margin-top: 50px;
+                height: 200px;
+                width: 300px;
+                border: 1px solid slategray;
+                margin-left: 50px;
+                border-radius: 15px;
+                display: none;
+            }
+
+            .firstrow1 .firstbox33 {
+                margin-top: 50px;
+                height: 500px;
+                width: 300px;
+                border: 1px solid slategray;
+                margin-left: 50px;
+                border-radius: 15px;
+                display: none;
+            }
+
+            .secondrow2 .firstbox111 {
+                margin-top: 254px;
+                height: 200px;
+                width: 300px;
+                border: 1px solid slategray;
+                margin-left: -302px;
+                border-radius: 15px;
+            }
+
+            .secondrow2 .firstbox222 {
+                margin-top: 468px;
+                height: 250px;
+                width: 300px;
+                border: 1px solid slategray;
+                margin-left: -301px;
+                border-radius: 15px
+            }
+
+            .fifthface img {
+                display: none;
+            }
+
+            .secondrow2 .firstbox333 {
+                margin-top: 731px;
+                height: 200px;
+                width: 300px;
+                border: 1px solid slategray;
+                margin-left: -297px;
+                border-radius: 15px;
+            }
+
+            .seventhtext p {
+                text-align: center;
+                background-color: rgba(72, 134, 72, 0.253);
+                width: 150px;
+                margin-left: 680px;
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .seventhtext h1 {
+                text-align: center;
+            }
+
+            .seventhtext pre {
+                text-align: center;
+                color: slategray;
+            }
+
+            .topboxseven {
+                height: 250px;
+                margin-left: 0px;
+                width: 400px;
+                background-color: whitesmoke;
+            }
+
+            .topboxseven h4 {
+                margin-top: 20px;
+                margin-left: 20px;
+                font-size: 15px;
+                color: slategray;
+            }
+
+            .topboxseven h3 {
+                color: slategray;
+                margin-top: -40px;
+                margin-left: 350px;
+                width: 40px;
+            }
+
+            .topboxseven hr {
+                color: slategray;
+            }
+
+            .topboxseven p {
+                color: slategray;
+                margin-left: 20px;
+                width: 350px;
+            }
+
+            .firstseven {
+                padding-top: 10px;
+                height: 80px;
+                width: 400px;
+                margin-top: 20px;
+                margin-left: 1px;
+                background-color: whitesmoke;
+                font-size: 15px;
+            }
+
+
+            .secondseven {
+                padding-top: 10px;
+                height: 80px;
+                width: 400px;
+                margin-top: 20px;
+                margin-left: 1px;
+                background-color: whitesmoke;
+                font-size: 15px;
+            }
+
+            .thirdseven {
+                padding-top: 10px;
+                height: 80px;
+                width: 400px;
+                margin-top: 20px;
+                margin-left: 1px;
+                background-color: whitesmoke;
+                font-size: 15px;
+            }
+
+            .firstseven h1 {
+                margin-left: 368px;
+                margin-top: -45px;
+            }
+
+            .secondseven h1 {
+                margin-left: 368px;
+                margin-top: -45px;
+            }
+
+            .thirdseven h1 {
+                margin-left: 368px;
+                margin-top: -45px;
+            }
+
+            .eightpagetext p {
+                text-align: center;
+                background-color: rgba(72, 134, 72, 0.253);
+                width: 150px;
+                margin-left: 140px;
+                font-size: 20px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .eightpagetext h1 {
+                text-align: center;
+
+            }
+
+            .nextpara {
+                text-align: center;
+            }
+
+            .firstinfo img {
+                height: 50px;
+                margin-top: 90px;
+                margin-left: -77px;
+            }
+
+            .firstinfo p {
+                margin-top: -53px;
+                margin-left: 37px;
+                color: slategray;
+            }
+
+            .seconddinfo img {
+                height: 55px;
+                width: 60px;
+                margin-top: 20px;
+                margin-left: -77px;
+            }
+
+            .seconddinfo p {
+                margin-top: -56px;
+                margin-left: 42px;
+                color: slategray;
+            }
+
+            .thirddinfo img {
+                height: 55px;
+                width: 60px;
+                margin-top: 25px;
+                margin-left: -77px;
+            }
+
+            .thirddinfo p {
+                margin-top: -64px;
+                margin-left: 40px;
+                color: slategray;
+            }
+
+            .info {
+                margin-left: 180px;
+            }
+
+            form {
+                margin-top: 50px;
+                margin-left: 102px;
+            }
+
+            .lasttpage {
+                height: 1000px;
+                margin-left: 2px;
+                width: 400px;
+                background-color: whitesmoke;
+            }
+
+            .topptext h4 {
+                display: none;
+                margin-left: 120px;
+                padding-top: 40px;
+            }
+
+            .topptext p {
+                margin-left: 120px;
+                display: none;
+            }
+
+            .buttontop {
+                margin-right: 50px;
+                padding-left: 54px;
+                margin-top: -49px;
+                padding-top: 31px;
+            }
+
+            .buttontop button {
+                padding: 10px;
+                background-color: rgb(44, 80, 44);
+                color: white;
+            }
+
+            input[type=gmail] {
+                width: 200px;
+                height: 35px;
+            }
+
+            .aboutleft {
+                margin-top: 150px;
+                padding-left: 120px;
+            }
+
+            .aboutleft h4 {
+                margin-top: -119px;
+            }
+
+            .aboutleft p {
+                width: 204px;
+                margin-left: -50px;
+                margin-top: -21px;
+            }
+
+            li {
+                list-style-type: none;
+                color: slategray;
+                padding: 9px;
+            }
+
+            .rightttt {
+                margin-top: 37px;
+                margin-left: 28px;
+            }
+
+            .rightttt h3 {
+                margin-left: 40px;
+            }
+
+            .righttttt {
+                margin-top: -10px;
+                margin-left: 28px;
+            }
+
+            .righttttt h3 {
+                margin-left: 40px;
+            }
+
+            .rightttttt {
+                margin-top: 50px;
+                margin-left: 28px;
+            }
+
+            .rightttttt h3 {
+                margin-left: 40px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navmain">
+            <div class="header">
+                <div class="cornerlogo">
+                    <img src="assets/nova.png" alt="">
+                    <h2><strong>&nbsp;&nbsp;Nova</strong></h2>
+                </div>
+            </div>
+
+            <div class="nav">
+                <div class="elements">
+                    <a href="" class="Home">Home</a>
+                    <a href="">About</a>
+                    <a href="">Pricing</a>
+                    <a href="">How it works</a>
+                    <a href="">Services</a>
+                    <a href="">Dropdown <i class="fa-solid fa-caret-down"></i></a>
+                    <a href="">Contact</a>
+                </div>
+            </div>
+
+            <div class="navbutton">
+                <button>Get Started</button>
+            </div>
+            <hr>
+        </div>
+
+        <div class="info">
+            <div class="innovative">
+                <p><strong>INNOVATIVE FINTECH SOLUTION</strong></p>
+            </div>
+
+            <div class="infodata">
+                <div class="infoheading">
+                    <h1>Secure, Efficient,and <br>User-Friendly <br>Financial Services</h1>
+                </div>
+                <p>Experience the future of finance with our secure, efficient, and <br>user-friendly financial
+                    services.
+                </p>
+            </div>
+
+            <div class="buttoninfo">
+                <button style="background-color: rgb(9, 155, 9); color: white;">Get Started
+                    Now</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>Learn More</button>
+            </div>
+
+            <div class="infop"><br>
+                <p>TRUSTED BY MAJOR COMPANIES WORLDWIDE</p><br>
+                <img src="assets/images/images/logo/logo-air-bnb__black.svg"><img
+                    src="assets/images/images/logo/logo-ibm__black.svg"><img
+                    src="assets/images/images/logo/logo-google__black.svg">
+            </div>
+
+            <div class="rightimginfo">
+                <img src="assets/images/images/hero-img-1-min.jpg" alt="">
+                <div class="middiv">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="secondinfo">
+            <div class="secondleftinfo">
+                <img src="assets/images/images/about_2-min.jpg">
+
+                <div class="infoimg">
+
+                    <h5>Mission Statement</h5>
+
+                    <p>Our mission is to empower individuals and <br>businesses by delivering sercure, efficient,<br>
+                        and user-friendly financial services.</p>
+                </div>
+            </div>
+            <div class="rightaboutus">
+                <p1><strong>About Us</strong></p1>
+                <p2>Experience the future of finance <br>with our secure, efficient, and <br>user-friendly financial
+                    services</p2>
+                <p3>Founded with the vision of reviolutionzing the financial industry, we are a <br>leading fintech
+                    compan dedicated to providing inoovative and <br>secure financial solutions.</p3>
+                <br>
+                <p4>Our cutting-edge platform ensures your transactions are safe, streamlined, <br>and easy to manage,
+                    emowering you to take control of your financial <br> journey with confidence and convenience.</p4>
+
+                <p><strong>Key Values and Visions</strong></p>
+                <p5><i class="fa-light fa-badge-check" style=" color: rgb(8, 26, 8, 0.925);"></i><i
+                        class="fa-solid fa-circle-check"></i>&nbsp;Innovation
+                    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <i
+                        class="fa-solid fa-circle-check"></i>&nbsp;Security&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <i
+                        class="fa-solid fa-circle-check"></i>&nbsp;User-Centric Design
+                    <br><i class="fa-solid fa-circle-check"></i>&nbsp;Transparency&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<i
+                        class="fa-solid fa-circle-check"></i>&nbsp; Empowerment
+                </p5>
+            </div>
+        </div>
+
+        <div class="thirdpage">
+            <div class="thirdinfo">
+                <div class="leftinfo">
+                    <h3>Why Choose Us</h3>
+                    <p>Experience the future of finance with our secure ,<br>efficient, and user-friendly financial
+                        services. Our <br> cutting-edge platform ensures your transactions <br>are safe, streamlined,
+                        and easy to manage, <br>empowering you to take control of your financial journey <br> with
+                        confdence and convenience.</p>
+                    <div class="button1">
+                        <div class="playbutton">
+                            <div class="playbutton1">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </div>
+                            <h4>Watch the video</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rightinfo">
+                    <div class="firstbox">
+                        <i class="fa-regular fa-address-book" style=" color: rgb(8, 26, 8, 0.925);"></i><br><br>
+                        <p1><strong>User-Friendly Interface</strong></p1><br>
+                        <p>Easy navigation with responsive <br> design for various devices.</p>
+                    </div>
+                    <div class="secondbox">
+                        <i class="fa-solid fa-arrow-trend-up" style=" color: rgb(8, 26, 8, 0.925);"></i><br><br>
+                        <p1><strong>Financial Analytics</strong></p1><br>
+                        <p>Buget tracking,expense categorization, <br>and personalized insights.</p>
+                    </div>
+                    <div class="thirdbox">
+                        <i class="fa-solid fa-headphones-simple" style=" color: rgb(8, 26, 8, 0.925);"></i><br><br>
+                        <p1><strong>Customer Support</strong></p1><br>
+                        <p>24/7 service via chat,email <br> and a detailed help center</p>
+                    </div>
+                    <div class="fourthbox">
+                        <i class="fa-solid fa-lock" style=" color: rgb(8, 26, 8, 0.925);"></i><br><br>
+                        <p1><strong>Security Features</strong></p1><br>
+                        <p>Data encryption, fraud <br> detection, and mechanisms.</p>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+
+        <div class="fourthpage"><br>
+            <p1><strong>Pricing</strong></p1><br>
+            <h2>Plan for every budget</h2>
+            <p>Experience the future of finance with our secure, efficient, <br>and user-friendly financial services</p>
+            <br>
+
+            <div class="leftfourth">
+                <div class="textfourth">
+                    <h4>Personal</h4>
+                    <p>choose a plan that fits your personal financial needs and start managing your finances more
+                        effectively.</p>
+                    <h3>$7 <br>/month</h3>
+                    <button>Get started</button>
+                </div>
+            </div>
+
+            <div class="rightfourth">
+                <div class="rightfourthtext">
+                    <h1>Business</h1>
+                    <p>Optimize your business financial <br> operations with our tailored business <br>plans.</p>
+                    <h3>$29 <br>/month</h3>
+                    <button>Get Started</button>
+                </div>
+
+                <div class="rightright">
+                    <div class="rightrighttext">
+                        <p>Features</p><br><br>
+                        <h2><i class="fa-regular fa-circle-check"></i> &nbsp;Personalized financial insights and reports
+                        </h2>
+                        <h3><i class="fa-regular fa-circle-check"></i> &nbsp;Priority Customer support</h3>
+                        <h4><i class="fa-regular fa-circle-check"></i> &nbsp;Access to exclusive investment
+                            opportunities</h4>
+                        <h5><i class="fa-regular fa-circle-check"></i> &nbsp;Ai-driven financial recommendations</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fifthpage">
+            <div class="textfifth">
+                <p><strong>How it works</strong></p>
+                <h1>How It Works</h1>
+                <h6 class="para">Our platform is designed to make managing your finances simple and efficient.
+                    <br>Follow these easy
+                    steps to get started:
+                </h6>
+            </div>
+
+            <div class="waves">
+                <div class="one1"> <img src="assets/images/one.png" class="onee"></div> <img
+                    src="assets/images/images/arch-line.svg" class="strightline1" height="90px" width="200px"
+                    style="margin-left: 20px;">
+                <div class="two2"><img src="assets/images/two.png" class="twoo" style="margin-left: 20px;"></div><img
+                    src="assets/images/images/arch-line-reverse.svg" class="strightline2" height="90px" width="200px"
+                    style="margin-left: 20px;">
+                <div class="three3"><img src="assets/images/number-3.png" class="threee" style="margin-left: 20px;">
+                </div><img src="assets/images/images/arch-line.svg" class="strightline3" height="90px" width="200px"
+                    style="margin-left: 20px;">
+                <div class="four4"><img src="assets/images/number-four.png" class="fourr" alt=""
+                        style="margin-left: 20px;"></div>
+            </div>
+            <div class="wavestext">
+                <div class="firstwave">
+                    <h1>Sign up</h1>
+                    <p>Visit our website or download our app to sign up. provide basic information to set up your secure
+                        account.</p>
+                    <div class="secondwave">
+                        <h1>Set Up Your Profile</h1>
+                        <p>Add your personal or business details to tailor the platform to your specific needs.</p>
+                    </div>
+                    <div class="thirdwave">
+                        <h1>Explore Features</h1>
+                        <p>Access your dashboard for a summary of your finances: balances,recent transactions and
+                            insights.</p>
+                    </div>
+                    <div class="fourthwave">
+                        <h1>Invest and Grow</h1>
+                        <p>Discover a variety of investment opportunities tailored to your financial goals.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lastblock">
+                <div class="textlastf">
+                    <h1>1K+</h1>
+                    <p>Customer satisfaction</p>
+                </div>
+                <div class="textlasts">
+                    <h1>18%+</h1>
+                    <p>Revenue Increase</p>
+                </div>
+                <div class="textlastt">
+                    <h1>2x</h1>
+                    <p>Business Growth</p>
+                </div>
+            </div>
+        </div><br><br><br>
+
+
+        <div class="fifthpage">
+            <div class="fifthtext">
+                <p>Our Services</p>
+                <h1>Empowering Financial Innovation Through <br>Cutting-Edge Services</h1>
+            </div>
+
+            <div class="grid-container">
+
+                <div class="firstbox1">
+                    <img src="assets/firstfifth.PNG">
+                    <h5>Digital Payments</h5>
+                    <p>Seamless and secure transactions thorugh various digital platforms, enabling quick and convenient
+                        payments for businesses and consumers alike</p>
+                    <img src="assets/arrow.PNG">
+                    <h4>Read More</h4>
+                </div>
+
+                <div class="firstbox2">
+                    <img src="assets/secondfifth.PNG">
+                    <h5>Personal Finance Managements</h5>
+                    <p>Seamless and secure transactions thorugh various digital platforms, enabling quick and convenient
+                        payments for businesses and consumers alike</p>
+                    <img src="assets/arrow.PNG">
+                    <h4>Read More</h4>
+                </div>
+
+                <div class="firstbox3">
+                    <img src="assets/thirdfifth.PNG">
+                    <h5>Online Lending</h5>
+                    <p>Fast and accessible lending services that provide personal and business loans thorugh online
+                        platfors, simplifying the borrowing process.</p>
+                    <img src="assets/arrow.PNG">
+                    <h4>Read More</h4>
+                </div>
+
+                <div class="secondbox1">
+                    <img src="assets/fourthfifth.PNG">
+                    <h5>Investment Platforms</h5>
+                    <p>User-friendy platforms that allow individuals to inves in stocks, bonds, and other assets with
+                        minimal barriers, making investment accessible to all.</p>
+                    <img src="assets/arrow.PNG">
+                    <h4>Read More</h4>
+                </div>
+
+                <div class="secondbox2">
+                    <img src="assets/fifthfifth.PNG">
+                    <h5>Cryptocurrency Trading</h5>
+                    <p>Services that facilitate the buying, selling, and trading of cryptocurrencies, offering user a
+                        gateway to the digital currency market.</p>
+                    <img src="assets/arrow.PNG">
+                    <h4>Read More</h4>
+                </div>
+
+                <div class="secondbox3">
+                    <img src="assets/sixfifth.PNG">
+                    <h5>Insurtech Solution</h5>
+                    <p>Innovative insurance services that leverage technology to offer personalized policies, faster
+                        claims processing, and enhanced customer experiences.</p>
+                    <img src="assets/arrow.PNG">
+                    <h4>Read More</h4>
+                </div>
+            </div>
+
+        </div>
+    </div><br><br><br>
+
+
+    <div class="sixthpage"><br><br>
+        <div class="sixthtext">
+            <p>TESTIMONIALS</p>
+            <h1>Real Stories of Success and Satisfaction from Our Diverse <br>Community</h1>
+        </div>
+        <div class="grid-container2">
+            <div class="firstrow1">
+                <div class="firstbox11">
+                    <p>"This platform has completely transformed the way I manage my business finances. The real-time
+                        transaction tracking and seamless payment option have saved me so much time and effort! "</p>
+                    <div class="firstface">
+                        <img src="assets/firstface.PNG" style="margin-top: 280px;">
+                    </div><br>
+                </div>
+                <div class="firstbox22">
+                    <p>"As a freelancer, managing my finances can be overwhelming. The budgeting tools and personalized
+                        insights have made it so much easier to stay on top of my expense and plan for the future. "</p>
+                    <img src="assets/secondface.PNG" style="height: 50px; margin-top: -5px;">
+                </div><br>
+                <div class="firstbox33">
+                    <p>" The investment options and portfolio management tools on this platform are top-notch. The
+                        variety of choices caters to all types of investors, from conservative to aggressive I
+                        especially appreciate how the tailored recommendations aligh perfectly "</p>
+                    <div class="thirdface">
+                        <img src="assets/thirdface.PNG" style="margin-top: 260px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="secondrow2">
+                <div class="firstbox111">
+                    <p>"The security features and outstanding. Knowing that my financial data is protected gives me
+                        peace of mind, and the platform's efficiency make it a pleasure to use. "</p>
+                    <div class="fourthface">
+                        <img src="assets/fourthface.PNG" style="height:50px ;">
+                    </div><br>
+                </div>
+                <div class="firstbox222">
+                    <p>"I never thought managing money could be this simple! The user-friendly interface and secure
+                        transaction process give me the confidence to handle my finances independently. The investment
+                        options and portfolio management tools on this platform are top-notch. The variety of choices
+                        caters to all types of investors, from conservative to aggressive I especially appreciate how
+                        the tailored recommendations aligh perfectly "</p>
+                    <div class="fifthface">
+                        <img src="assets/fifthface.PNG" style="margin-top: 160px;">
+                    </div>
+                </div><br>
+                <div class="firstbox333">
+                    <p>"The platform's intuitive design and robust features have been a game-changer for my startup.
+                        It's helped me streamline operations and focus on growing my business"</p>
+                    <div class="sixthface">
+                        <img src="assets/sixxxxth.PNG" style="height:50px ;">
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br>
+    </div>
+
+    <div class="seventhpage">
+        <div class="seventhtext">
+            <p>FAQ</p>
+            <h1>Frequently Asked Question</h1>
+            <pre>Utilize our tools to develope your concepts and bring your vision to life. Once <br> complete , effortlessly share your creations. </pre>
+        </div>
+        <div class="topboxseven"><br>
+            <h4>What services does your web page offer?</h4>
+            <h3>-</h3>
+            <hr>
+            <p>Our Web agency offers a comprehensive range of service including web design and dvelopment ,
+                e-commerce solutions, SEO optimization,content creation,website maintenance, and digital marketing
+                strategies. We tailor our services to meet the unique needs of each client, ensuring a customized
+                approach to every project.</p>
+        </div>
+        <div class="firstseven">
+            <h3>How much does it cost to build a website?</h3>
+            <h1>+</h1>
+        </div>
+        <div class="secondseven">
+            <h3>How long does it take to design and develope a website?</h3>
+            <h1>+</h1>
+        </div>
+        <div class="thirdseven">
+            <h3>Will my website be mobile-friendly ?</h3>
+            <h1>+</h1>
+        </div>
+    </div><br><br><br>
+
+    <div class="eightpage">
+        <div class="eightpagetext">
+            <p>CONTACT</p>
+            <H1>CONTACT US</H1>
+            <div class="nextpara">
+                <h7>Utilize our tools to develope your concepts and bring yur vision to life. Once complete,
+                    effortlessly share your creations.</h7>
+            </div>
+        </div>
+        <div class="leftside">
+            <div class="info">
+                <div class="firstinfo">
+                    <img src="assets/phone.png">
+                    <p>Phone <br>+912023299</p>
+                </div>
+                <div class="seconddinfo">
+                    <img src="assets/plane-mode.png">
+                    <p>Email <br>info@domain.com</p>
+                </div>
+                <div class="thirddinfo">
+                    <img src="assets/gps.png">
+                    <p>Address <br> 124 Main street, London</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="righttside">
+            <div class="righttinfo">
+                <form>
+                    <h3>Name</h3>
+                    <input type="text">
+                    <h3>Email</h3>
+                    <input type="text">
+                    <h3>Subject</h3>
+                    <input type="text">
+                    <h3>Message</h3>
+                    <input type="message"><br>
+                    <button>Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div><br><br><br>
+
+    <div class="lasttpage">
+        <div class="lasttttext">
+            <div class="topptext">
+                <div class="hfour">
+                    <h4>Join our newsletter</h4>
+                    <p>Stay updated with our latest template and offers-join our newsletter today!</p>
+                </div>
+                <div class="buttontop">
+                    <input type="gmail" placeholder="Enter your Email"><button>subscribe</button>
+                </div>
+            </div>
+
+            <div class="aboutleft">
+                <h4>About Us</h4>
+                <p>Utilize our tools to develope your concepts and bring your vision to life. Once complete,
+                    effortlessly share your creations.</p>
+            </div>
+
+            <div class="rightttt">
+                <h3>Company</h3>
+                <ul>
+                    <li>Leadership</li>
+                    <li>Careers</li>
+                    <li>Case Studies</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>404 page</li>
+                </ul>
+            </div>
+
+            <div class="righttttt">
+                <h3>Account</h3>
+                <ul>
+                    <li>Register</li>
+                    <li>Sign in</li>
+                    <li>Forgot Password</li>
+                    <li>Coming soon</li>
+                    <li>Portfolio Masonry</li>
+                </ul>
+            </div>
+
+            <div class="rightttttt">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i>&nbsp;123 London street,infront of Mall of London
+                    </li>
+                    <li><i class="fa-solid fa-envelope"></i>&nbsp;info@mydomain.com</li>
+                    <li><i class="fa-solid fa-phone"></i>&nbsp;+121121212</li>
+                    <li><i class="fa-solid fa-globe"></i>&nbsp;FreeBootstrap.net</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

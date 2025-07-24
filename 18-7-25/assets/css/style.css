@@ -1,0 +1,87 @@
+/* 
+.nav-heading h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    &:hover {
+        background-color: whitesmoke;
+        color: rgb(173, 173, 173);
+        cursor: pointer;
+        transition: background-color 0.9s ease;
+    }
+}
+.nav-links span { 
+     color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.nav-links i {
+    color: rgb(100, 96, 96);
+}
+.nav-item a{
+    color: sienna;
+    transition: color 0.9s ease;
+    font-size: 17px;
+    &:hover {
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        transition: color 0.4s ease;
+    }
+} */
+.sidebar {
+    height: 570px;
+    width: 210px;
+    background-color: rgba(128, 128, 128, 0.212);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+    &:hover {
+        background-color: whitesmoke;
+        color: rgb(173, 173, 173);
+        cursor: pointer;
+        transition: background-color 0.9s ease;
+    }
+}
+
+.nav-links span {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.nav-links i {
+    color: rgb(100, 96, 96);
+}
+
+.background-img {
+    background-image: url('/assets/images/background-img.jpg');
+    background-size: cover;
+    height: 89vh;
+}
+
+.text-main {
+    font-family: emoji;
+}
+
+.background-img .blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.topbgcolor{
+       background-image : linear-gradient( to right ,white, rgb(165, 60, 60));
+    height: 90px;
+}
+.toptext{
+    text-align: center;
+    text-shadow: 1px 0px 1px;
+}
+.imglft{
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+form{
+    margin-right: -200px;
+    background-color: rgb(190, 105, 105);
+    border: 4px solid maroon;
+    border-radius: 30px;
+    width:200px;
+    padding: 20px;
+    text-align: center;
+}
+.aboutus{
+    position: sticky;
+    overflow: hidden;
+    background-color: rgb(141, 42, 42);
+    height:  40px;
+    top: 0;
+}
+.aboutus a{
+  float: left;
+  margin-left: 40px;
+  overflow: hidden;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.midimage{
+    height: 500px;
+    background-image: url('../image/mgmcollege.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.midimage form{
+    color: white;
+    position: absolute;
+    right: 300px;
+    top: 200px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+input[type=text]
+{
+    border-radius: 5px;
+    padding: 1px 5px;
+    height: 25px;
+}
+input[type=nam]
+{
+    border-radius: 5px;
+    padding: 1px 5px;
+    height: 25px;
+}
+input[type=Password]
+{
+    border-radius: 5px;
+    padding: 1px 5px;
+    height: 25px;
+}
+.aboutimg{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.midtext{
+    position: absolute;
+    margin-top: 20px;
+    left: 55%;
+    width: 30%;
+}
+.vision{
+   text-align: justify;
+   position: absolute;
+   
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Mission{
+    margin-top: 190px;
+    left: 10px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    border: 2px solid black;
+    margin-top: 200px;
+
+}
+.gallarytext{
+    margin-top: 180px;
+    text-align: center;
+}
+.gal1{
+    position: absolute;
+    border: 2px solid black;
+    height: 250px;
+    width: 400px;
+    left: 10%;
+}
+.gal2{
+    position: absolute;
+    border: 2px solid black;
+    height: 250px;
+    width: 400px;
+    right: 10%;
+}
+.gal3{
+    margin-top: 350px;
+    position: absolute;
+    border: 2px solid black;
+    height: 250px;
+    width: 400px;
+    left: 10%;
+}
+.gal4{
+     margin-top: 350px;
+    position: absolute;
+    border: 2px solid black;
+    height: 250px;
+    width: 400px;
+    right:10%;
+}
+
+.imgg1:hover .gal1{
+    filter:blur(5px);
+}
+.imgg2:hover .gal2{
+    filter:blur(5px);
+}
+.imgg3:hover .gal3{
+    filter:blur(5px);
+}
+.imgg4:hover .gal4{
+    filter:blur(5px);
+}
+
+.info{
+    margin-top: 700px;
+    margin-left: 0px;
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    background-color: maroon;
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    float: left
+}
+.info pre{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.contactus{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    margin-top: 700px;
+    right: 5%;
+    z-index: -0.28;
+    background-color: white;
+}
+.contactus h1{
+    text-align: center;
+}
+input[type=text]{
+    height: 60px;
+    margin-left: 40px;
+    padding: 20px
+}
+input[type=name]{
+    margin-left: 40px;
+        padding: 20px
+}
+input[type=email]{
+    height: 60px;
+    margin-left: 40px;
+        padding: 20px
+}
+.form1{
+    position: absolute;
+    right: 40px;
+}
+.last{
+    margin-top: 1000px;
+    border: 2px solid black;
+    width: 100%;
+    height: 450px;
+}
+.last img{
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.last h3{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.last iframe{
+    margin-left: 20px;
+    border: 2px solid black;
+}
+.linkss{
+    position: absolute;
+    right: 55%;
+    top: 2750px;
+    padding: 40px;
+}
+.linkss a{
+    text-decoration: none;
+    color: maroon;
+    font-size: 20px;
+}
+.lastimage .image1{
+    position: absolute;
+    right: 250px;
+    top: 2950px;
+}
+.lastimage .image2{
+    position: absolute;
+    right: 150px;
+    top: 2950px;
+}
+.image{
+    background-image:linear-gradient(rgba(221, 206, 206, 0.459),rgba(168, 96, 96, 0.842)),url('../image/img.jpg');
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: 50% 100%;
+}

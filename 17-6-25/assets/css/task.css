@@ -1,0 +1,135 @@
+.centermain{
+    position: relative;
+    height: 600px;
+    width: 800px;
+    background-color: brown;
+    margin-left: 355px;
+    margin-top: 50px;
+}
+.center {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  text-align: center;
+  font-size: 30px;
+  background-color: aqua;
+  border: 2px solid rgb(255, 0, 0);
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+
+}
+
+.centerdiv
+{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 45px;
+}
+.topleft{
+  background-color: aqua;
+  border: 2px solid rgb(255, 0, 0);
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border-radius: 15px;
+  position: absolute;
+    top: 120px;
+  left: 190px;
+  font-size: 18px;
+}
+
+.left{
+ border: 2px solid rgb(255, 0, 0);
+  background-color: aqua;
+ height: 100px;
+ width: 100px;
+ text-align: center;
+ border-radius: 15px;
+ position: absolute;
+   top: 270px;
+  left: 190px;
+  font-size: 18px;
+}
+
+.leftbottom{
+    border: 2px solid rgb(255, 0, 0);
+  background-color: aqua;
+ height: 100px;
+ width: 100px;
+ text-align: center;
+ border-radius: 15px;
+ position: absolute;
+   top: 435px;
+  left: 190px;
+  font-size: 18px;
+}
+
+.bottom{
+     border: 2px solid rgb(255, 0, 0);
+  background-color: aqua;
+ height: 100px;
+ width: 100px;
+ text-align: center;
+ border-radius: 15px;
+ position: absolute;
+   top: 435px;
+  left: 375px;
+  font-size: 18px;
+}
+
+.top{
+     border: 2px solid rgb(255, 0, 0);
+  background-color: aqua;
+ height: 100px;
+ width: 100px;
+ text-align: center;
+ border-radius: 15px;
+ position: absolute;
+   top: 90px;
+  left: 370px;
+  font-size: 18px;
+
+}
+
+.topright
+{
+ border: 2px solid rgb(255, 0, 0);
+  background-color: aqua;
+ height: 100px;
+ width: 100px;
+ text-align: center;
+ border-radius: 15px;
+ position: absolute;
+   top: 120px;
+  right: 150px;
+  font-size: 18px;
+}
+
+.right{
+     border: 2px solid rgb(255, 0, 0);
+  background-color: aqua;
+ height: 100px;
+ width: 100px;
+ text-align: center;
+ border-radius: 15px;
+ position: absolute;
+   top: 270px;
+  right: 150px;
+  font-size: 18px;
+}
+
+.bottomright{
+
+         border: 2px solid rgb(255, 0, 0);
+  background-color: aqua;
+ height: 100px;
+ width: 100px;
+ text-align: center;
+ border-radius: 15px;
+ position: absolute;
+   top: 435px;
+  right: 150px;
+  font-size: 18px;
+
+}

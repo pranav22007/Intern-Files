@@ -1,0 +1,32 @@
+body{
+    background-color: grey;
+}
+
+.navbarmiddle .leftlogo{
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    height: 80px;
+}
+.midbutton{
+    text-align: center;
+    margin-top: 13px;
+    
+}
+.mid a{
+    text-decoration: none;
+}
+.rightbutton{
+    position: absolute;
+    top: 10px;
+    left: 1200px;
+}
+.form{
+    margin-top: 90px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+input[type=text]{
+    border: 2px solid black;
+    border-radius: 9px;
+}
