@@ -1,0 +1,12 @@
+VS CODE :- (Push the code)
+
+	*git init 
+	*git add . (add all files)
+	*git commit -am "initial commit"
+	*git remote add origin (url.git)
+	git remote -v (it shows the data is fetched)
+	*git push origin master (master -> master)
+	To clone git code to vs code
+	* git clone (url.git)
+
+	url(https://github.com/pranav22007/Intern-Files)
