@@ -1,0 +1,261 @@
+.background-imgm {
+    background-image: url('../img/hero-bg.jpg');
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar h2 {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-right p {
+    padding: 2px 20px;
+}
+
+.backcolor {
+    height: 27vh;
+    background-color: gainsboro;
+}
+
+.backcolor1 {
+    height: 20vh;
+    background-color: gainsboro;
+    filter: opacity(0.3);
+    margin-top: 160px;
+}
+
+.backcolor1 img {
+    margin-top: 30px;
+}
+
+.Services2 {
+    height: 80vh;
+    background-color: gainsboro;
+    width: auto;
+}
+
+#testimonials-aection img {
+    height: 100px;
+}
+#testimonials-aection {
+    margin-top: 100px;
+}
+
+.background-img {
+    position: relative;
+    background-image: url('../img/testimonials-bg.jpg');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.background-team {
+    height: 90vh;
+    background-color: gainsboro;
+    width: auto;
+}
+
+.name,
+.email,
+.subject {
+    height: 55px;
+    border-radius: 20px;
+}
+
+.area {
+    border-radius: 20px;
+}
+
+#Footer-Section {
+    height: 400px;
+}
+
+.cards {
+    gap: 140px;
+}
+
+.cards {
+    position: absolute;
+    margin-top: -90px;
+}
+
+.cards .card {
+    border-radius: 30px;
+}
+
+.services12 {
+    position: relative;
+}
+
+.cardicon {
+    margin-left: 18vh;
+    gap: 360px;
+    position: absolute;
+    margin-top: -140px;
+}
+
+.imagesrow img {
+    margin-top: 40px;
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+
+    .backcolor {
+        height: 65vh;
+        background-color: gainsboro;
+    }
+
+    .backcolor1 {
+        height: 20vh;
+        background-color: gainsboro;
+        filter: opacity(0.3);
+        margin-top: 160px;
+    }
+
+    .thirdservice {
+        margin-top: 90px;
+    }
+
+
+    .cards {
+        position: absolute;
+        margin-bottom: 90px;
+    }
+
+    .cards .card {
+        border-radius: 30px;
+    }
+
+    .services12 {
+        position: relative;
+    }
+
+
+    .card1 {
+        position: absolute;
+        bottom: 380px;
+        left: -35px;
+    }
+
+    .card2 {
+        position: absolute;
+        bottom: 610px;
+        left: 385px;
+    }
+
+    .card3 {
+        position: absolute;
+        bottom: 435px;
+        left: 10px;
+    }
+
+    .backcolor1 {
+        height: 20vh;
+        background-color: gainsboro;
+        filter: opacity(0.3);
+        margin-top: 160px;
+    }
+
+    .Services2 {
+        height: 200vh;
+        background-color: gainsboro;
+    }
+
+    .background-team {
+        height: 160vh;
+        background-color: gainsboro;
+    }
+
+    #Footer-Section {
+        height: 500px;
+    }
+
+}
+
+@media screen and (max-width:425px) and (min-width:375px) {
+
+    .background-imgm {
+        height: 90vh;
+    }
+
+    .backcolor {
+        height: 140vh;
+        background-color: gainsboro;
+    }
+
+    .secondservice img {
+        margin-top: 120px;
+    }
+
+    .thirdservice img {
+        margin-top: 120px;
+    }
+
+    .firstservic img {
+        position: relative;
+    }
+
+    .card1 {
+        display: none;
+    }
+
+    .secondservice img {
+        position: relative;
+    }
+
+    .card2 {
+        display: none;
+    }
+
+    .thirdservice img {
+        position: relative;
+    }
+
+    .card3 {
+        display: none;
+    }
+
+    .cards {
+        display: none;
+    }
+
+    .cardicon {
+        display: none;
+    }
+
+    .backcolor1 {
+        height: 60vh;
+        background-color: gainsboro;
+        filter: opacity(0.3);
+        margin-top: 160px;
+    }
+
+    .background-img {
+        position: relative;
+        background-image: url('../img/testimonials-bg.jpg');
+        height: 480px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .background-team {
+        height: 260vh;
+        background-color: gainsboro;
+    }
+
+    #Footer-Section {
+        height: 1100px;
+    }
+
+}

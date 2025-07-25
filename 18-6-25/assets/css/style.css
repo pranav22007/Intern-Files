@@ -1,0 +1,41 @@
+  .backgroundimg{
+    background-image: url('/assets/image/59056459-cheerful-handsome-man-showing-direction-and-pointing-with-finger.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.texthead{
+    margin-left: 90px;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.textbox1{
+    height: 230px;
+    width: 400px;
+    background-color: white;
+    margin-left: 60px;
+}
+.textbox2
+{
+     height: 230px;
+    width: 400px;
+    background-color: white;
+    margin-left: 60px;
+}
+.secondmainbox{
+    height: 300px;
+    width: 1485px;
+    background-color: #f97316;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+ .secondmainbox .firstbox{
+    height: 150px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    left: 19px;
+    top: 850px;
+}
+
+

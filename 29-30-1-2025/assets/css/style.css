@@ -1,0 +1,990 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.navmain {
+    margin-left: -100px;
+}
+
+.cornerlogo img {
+    height: 100px;
+    width: 60px;
+    margin-top: -35px;
+    margin-left: 350px;
+}
+
+.cornerlogo h2 {
+    margin-top: 4px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header .cornerlogo {
+    display: flex;
+}
+
+.nav .elements {
+    position: absolute;
+    margin-left: 520px;
+    top: 22px;
+}
+
+.elements a {
+    padding: 0px 25px;
+    text-decoration: none;
+    color: rgba(56, 56, 56, 0.808);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.elements .Home {
+    border-bottom: 2px solid black;
+    border-width: 3px;
+}
+.navbutton button {
+    padding: 10px;
+    background-color: rgb(9, 155, 9);
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+ .navbutton hr {
+    border-width: 4px;
+    margin-top: -10px;
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.info {
+    margin-left: 120px;
+}
+
+.innovative {
+    height: 20px;
+    background-color: rgba(62, 173, 62, 0.301);
+    width: 260px;
+    padding: 0 12px;
+    margin-top: 100px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.innovative p {
+    text-align: center;
+    color: rgb(9, 155, 9);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.infoheading h1 {
+    font-size: 60px;
+}
+
+.buttoninfo button {
+    padding: 15px 9px;
+}
+
+.infop p {
+    font-size: 15px;
+    color: rgba(29, 187, 29, 0.897);
+    margin-left: -400px;
+}
+
+.info img {
+    height: 80px;
+    margin-left: -40px;
+}
+
+.rightimginfo img {
+    background-image: url('../images/images/hero-img-1-min.jpg');
+    position: absolute;
+    right: 80px;
+    height: 550px;
+    top: 20%;
+    border-radius: 40px;
+}
+
+
+
+.secondinfo {
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+.secondinfo img {
+    height: 400px;
+    width: 500px;
+    border-radius: 40px;
+}
+
+.secondleftinfo .infoimg {
+    margin-top: 10px;
+    background-color: rgba(12, 102, 12, 0.808);
+    height: 200px;
+    width: 500px;
+    border-radius: 40px;
+    position: absolute;
+}
+
+.infoimg h5 {
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.infoimg p {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.rightaboutus p1 {
+    color: rgb(9, 155, 9);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: 840px;
+    margin-left: 720px;
+    background-color: rgba(62, 173, 62, 0.301);
+    width: 77px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.rightaboutus p2 {
+    position: absolute;
+    top: 890px;
+    margin-left: 720px;
+    font-size: 40px;
+}
+
+.rightaboutus p3 {
+    color: slategray;
+    position: absolute;
+    top: 1055px;
+    margin-left: 720px;
+}
+
+.rightaboutus p4 {
+    color: slategray;
+    position: absolute;
+    top: 1121px;
+    margin-left: 720px;
+}
+
+.rightaboutus p {
+    color: black;
+    position: absolute;
+    top: 1199px;
+    margin-left: 720px;
+}
+
+.rightaboutus p5 {
+    color: slategray;
+    position: absolute;
+    top: 1260px;
+    margin-left: 720px;
+    gap: 40px;
+}
+
+.thirdinfo {
+    background-color: rgba(72, 134, 72, 0.253);
+    height: 600px;
+    width: 1300px;
+    margin-left: 100px;
+    margin-top: 260px;
+    border-radius: 20px;
+}
+
+.leftinfo {
+    position: absolute;
+    margin-left: 40px;
+    top: 1560px;
+    font-size: 20px;
+}
+
+.leftinfo p {
+    font-size: 21px;
+    margin-top: 90px;
+    text-align: justify;
+    color: slategray;
+}
+
+.button1 {
+    margin-top: 80px;
+    height: 60px;
+    width: 190px;
+    border-radius: 9px;
+    background-color: forestgreen;
+}
+
+.button1 .playbutton {
+    position: absolute;
+    top: 380px;
+    left: 10px;
+}
+
+.playbutton h4 {
+    color: white;
+    font-size: 17px;
+    width: 200px;
+    position: absolute;
+    top: -20px;
+    left: 30px;
+}
+
+.firstbox {
+    position: absolute;
+    right: 560px;
+    top: 1580px;
+    font-size: 30px;
+}
+
+.firstbox p1 {
+    font-size: 20px;
+}
+
+.firstbox p {
+    color: slategray;
+    font-size: 15px;
+}
+
+.secondbox {
+    position: absolute;
+    right: 210px;
+    top: 1580px;
+    font-size: 30px;
+}
+
+.secondbox p1 {
+    font-size: 20px;
+}
+
+.secondbox p {
+    color: slategray;
+    font-size: 15px;
+}
+
+.thirdbox {
+    position: absolute;
+    right: 600px;
+    font-size: 30px;
+    top: 1880px;
+}
+
+.thirdbox p1 {
+    font-size: 20px;
+}
+
+.thirdbox p {
+    color: slategray;
+    font-size: 15px;
+}
+
+.fourthbox {
+    position: absolute;
+    right: 280px;
+    font-size: 30px;
+    top: 1880px;
+}
+
+.fourthbox p1 {
+    font-size: 20px;
+}
+
+.fourthbox p {
+    color: slategray;
+    font-size: 15px;
+}
+
+.fourthpage p1 {
+    padding: 1px;
+    background-color: rgba(72, 134, 72, 0.253);
+    width: 150px;
+    margin-left: 700px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fourthpage p,
+h2 {
+    text-align: center;
+}
+
+.fourthpage h2 {
+    font-size: 30px;
+}
+
+.leftfourth {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin-left: 100px;
+    border-radius: 20px;
+    float: left;
+}
+
+.textfourth {
+    margin-left: 30px;
+}
+
+.textfourth h4 {
+    font-size: 20px;
+}
+
+.textfourth p {
+    color: slategray;
+    font-size: 15px;
+    margin-left: -5px;
+    width: 320px;
+    line-height: 20px;
+}
+
+.textfourth h3 {
+    font-size: 40px;
+    width: 60px;
+}
+
+.textfourth button {
+    padding: 10px;
+    border-radius: 9px;
+    background-color: rgba(72, 134, 72, 0.63);
+}
+
+.rightfourth {
+    height: 400px;
+    width: 840px;
+    border: 1px solid black;
+    margin-left: 50px;
+    border-radius: 20px;
+    float: left;
+    background-color: rgba(72, 134, 72, 0.63);
+}
+
+.rightfourthtext {
+    margin-left: 40px;
+    color: white;
+}
+
+.rightfourthtext p {
+    margin-left: -450px;
+    font-size: 20px;
+    width: 1200px;
+}
+
+.rightfourthtext h3 {
+    font-size: 40px;
+    width: 60px;
+}
+
+.rightfourthtext button {
+    padding: 10px;
+    border-radius: 9px;
+    background-color: rgba(72, 134, 72, 0.63);
+}
+
+.rightrighttext {
+    color: white;
+    margin-left: 60px;
+    font-size: 22px;
+}
+
+.rightrighttext p {
+    margin-top: -330px;
+
+}
+
+.rightrighttext h2 {
+    font-size: 15px;
+    position: absolute;
+    left: 980px;
+}
+
+.rightrighttext h3 {
+    font-size: 15px;
+    position: absolute;
+    left: 980px;
+    margin-top: 60px;
+}
+
+.rightrighttext h4 {
+    font-size: 15px;
+    position: absolute;
+    left: 980px;
+    margin-top: 110px;
+}
+
+.rightrighttext h5 {
+    font-size: 15px;
+    position: absolute;
+    left: 980px;
+    margin-top: 160px;
+}
+
+.fifthpage {
+    margin-top: 500px;
+}
+
+.textfifth p {
+    text-align: center;
+    background-color: rgba(72, 134, 72, 0.253);
+    width: 150px;
+    margin-left: 660px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.textfifth h1{
+    text-align: center;
+}
+.fifthpage h6{
+    font-size: 15px;
+text-align: center;
+text-decoration: none;
+}
+.waves img{
+    height: 90px;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.firstwave h1{
+    font-size: 20px;
+    position: absolute;
+    left: 210px;
+}
+.firstwave p{
+    position: absolute;
+    top: 3210px;
+    left: 170px;
+   color: slategray;
+   width: 160px;
+   text-align: center;
+}
+.secondwave h1{
+    font-size: 20px;
+    position: absolute;
+    left: 500px;
+}
+.secondwave p{
+    position: absolute;
+    top: 3210px;
+    left: 500px;
+   color: slategray;
+   width: 160px;
+   text-align: center;
+}
+.thirdwave h1{
+    font-size: 20px;
+    position: absolute;
+    left: 830px;
+}
+.thirdwave p{
+    position: absolute;
+    top: 3210px;
+    left: 830px;
+   color: slategray;
+   width: 160px;
+   text-align: center;
+}
+.fourthwave h1{
+    font-size: 20px;
+    position: absolute;
+    left: 1170px;
+}
+.fourthwave p{
+    position: absolute;
+    top: 3210px;
+    left: 1170px;
+   color: slategray;
+   width: 160px;
+   text-align: center;
+}
+.lastblock{
+    margin-top: 290px;
+    height: 300px;
+    margin-left: 100px;
+    width: 1300px;
+    border-radius: 30px;
+    background-color: rgba(8, 26, 8, 0.925);
+    display: flex;
+    gap: 330px;
+    color: white;
+}
+.textlastf{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 50px;
+}.textlasts{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.textlastt{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.fifthtext{
+    margin-top: -350px;
+}
+.fifthtext p{
+     text-align: center;
+    background-color: rgba(72, 134, 72, 0.253);
+    width: 150px;
+    margin-left: 660px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fifthtext h1{
+    text-align: center;
+}
+.firstrow{
+    display: flex;
+}
+.firstrow .firstbox1{
+    margin-top: 50px;
+    height: 350px;
+    width: 300px;
+    border: 1px solid  slategray;
+    margin-left: 190px;
+    border-radius: 15px;
+}
+
+.firstrow .firstbox2{
+    margin-top: 50px;
+    height: 350px;
+    width: 300px;
+     border: 1px solid  slategray;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+.firstrow .firstbox3{
+    margin-top: 50px;
+    height: 350px;
+    width: 300px;
+     border: 1px solid  slategray;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+.secondrow{
+    display: flex;
+}
+.secondrow .secondbox1{
+    margin-top: 50px;
+    height: 350px;
+    width: 300px;
+     border: 1px solid  slategray;
+     margin-left: 190px;
+    border-radius: 15px;
+}
+.secondrow .secondbox2{
+    margin-top: 50px;
+    height: 350px;
+    width: 300px;
+     border: 1px solid  slategray;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+.secondrow .secondbox3{
+    margin-top: 50px;
+    height: 350px;
+    width: 300px;
+     border: 1px solid  slategray;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+.firstbox1 img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.firstbox2 img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.firstbox3 img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.secondbox1 img{
+    margin-top: 20px;
+    margin-left: 20px;
+}.secondbox2 img{
+    margin-top: 20px;
+    margin-left: 20px;
+}.secondbox3 img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.firstbox1 h5{
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 20px;
+}
+.firstbox2 h5{
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 20px;
+}
+.firstbox3 h5{
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 20px;
+}
+.secondbox1 h5{
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 20px;
+}.secondbox2 h5{
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 20px;
+}.secondbox3 h5{
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 20px;
+}
+.firstbox1 h4{
+    margin-top: -35px;
+    margin-left: 70px;
+}
+.firstbox1 p{
+    margin-left: 20px;
+}
+
+.firstbox2 h4{
+    margin-top: -35px;
+    margin-left: 70px;
+}
+.firstbox2 p{
+    margin-left: 20px;
+}
+
+.firstbox3 h4{
+    margin-top: -35px;
+    margin-left: 70px;
+}
+.firstbox3 p{
+    margin-left: 20px;
+}
+
+.secondbox1 h4{
+    margin-top: -35px;
+    margin-left: 70px;
+}
+.secondbox1 p{
+    margin-left: 20px;
+}
+
+.secondbox2 h4{
+    margin-top: -35px;
+    margin-left: 70px;
+}
+.secondbox2 p{
+    margin-left: 20px;
+}
+
+.secondbox3 h4{
+    margin-top: -35px;
+    margin-left: 70px;
+}
+.secondbox3 p{
+    margin-left: 20px;
+}
+.sixthpage p{
+    color:  slategray;
+}
+.sixthtext p{
+    text-align: center;
+    background-color: rgba(72, 134, 72, 0.253);
+    width: 150px;
+    margin-left: 680px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sixthtext h1{
+    text-align: center;
+}
+
+.firstrow1{
+    display: flex;
+}
+
+.firstrow1 .firstbox11{
+    margin-top: 50px;
+    height: 500px;
+    width: 300px;
+    border: 1px solid  slategray;
+    margin-left: 190px;
+    border-radius: 15px;
+}
+
+.firstrow1 .firstbox22{
+    margin-top: 50px;
+    height: 200px;
+    width: 300px;
+     border: 1px solid  slategray;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+.firstrow1 .firstbox33{
+    margin-top: 50px;
+    height: 500px;
+    width: 300px;
+    border: 1px solid  slategray;
+    margin-left: 120px;
+    border-radius: 15px
+}
+
+.secondrow2{
+    display: flex;
+}
+.secondrow2 .firstbox111{
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+    border: 1px solid  slategray;
+    margin-left: 190px;
+    border-radius: 15px;
+}
+.secondrow2 .firstbox222{
+    margin-top: -290px;
+    height: 500px;
+    width: 300px;
+     border: 1px solid  slategray;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+.secondrow2 .firstbox333{
+     margin-top: 10px;
+    height: 200px;
+    width: 300px;
+    border: 1px solid  slategray;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+
+.seventhtext p{
+    text-align: center;
+    background-color: rgba(72, 134, 72, 0.253);
+    width: 150px;
+    margin-left: 680px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.seventhtext h1{
+    text-align: center;
+}
+.seventhtext pre{
+    text-align: center;
+    color: slategray;
+}
+.topboxseven{
+    height: 170px;
+    margin-left: 250px;
+    width: 960px;
+    background-color: whitesmoke;
+}
+.topboxseven h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color:slategray;
+}
+.topboxseven h3{
+    color:slategray;
+    margin-top: -50px;
+    margin-left: 900px;
+    width: 40px;
+}
+.topboxseven hr{
+    color: slategray;
+}
+
+.topboxseven p{
+    color:  slategray;
+    margin-left: 20px;
+    width: 800px;
+}
+
+.firstseven{
+    padding-top: 10px;
+    height: 80px;
+    width: 960px;
+    margin-top: 20px;
+    margin-left: 250px;
+    background-color: whitesmoke ;
+}
+.secondseven{
+    padding-top: 10px;
+    height: 80px;
+    width: 960px;
+    margin-top: 20px;
+    margin-left: 250px;
+    background-color: whitesmoke ;
+}
+.thirdseven{
+    padding-top: 10px;
+    height: 80px;
+    width: 960px;
+    margin-top: 20px;
+    margin-left: 250px;
+    background-color: whitesmoke ;
+}
+
+.firstseven h1{
+    margin-left: 900px;
+    margin-top: -40px;
+}
+
+.secondseven h1{
+    margin-left: 900px;
+    margin-top: -40px;
+}
+.thirdseven h1{
+    margin-left: 900px;
+    margin-top: -40px;
+}
+
+.eightpagetext p{
+    text-align: center;
+    background-color: rgba(72, 134, 72, 0.253);
+    width: 150px;
+    margin-left: 680px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.eightpagetext h1{
+    text-align: center;
+
+}
+.nextpara{
+    text-align: center;
+}
+.firstinfo img{
+    height: 50px;
+    margin-top: 90px;
+    margin-left: 60px;
+}
+.firstinfo p{
+    margin-top: -45px;
+    margin-left: 140px;
+    color: slategray ;
+}
+.seconddinfo img{
+    height: 55px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.seconddinfo p{
+     margin-top: -50px;
+    margin-left: 140px;
+    color: slategray ;
+}
+.thirddinfo img{
+    height: 55px;
+    width: 60px;
+    margin-top: 25px;
+margin-left: 60px;
+}
+.thirddinfo p{
+     margin-top: -50px;
+    margin-left: 141px;
+    color: slategray ;
+}
+.info{
+    margin-left: 220px;
+}
+form{
+    margin-top: -240px;
+    margin-left: 871px;
+}
+form h3{
+    color:slategray ;
+}
+input[type=text]{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+}
+input[type=message]
+{
+    border-radius: 15px;
+    width: 200px;
+    height: 90px;
+}
+form button{
+    margin-top: 20px;
+    height: 60px;
+    background-color: rgb(44, 80, 44);
+    color: white;
+}
+.lasttpage{
+    height: 600px;
+    margin-left: 150px;
+    width: 1200px;
+    background-color:whitesmoke;
+}
+
+.topptext h4{
+    margin-left: 120px;
+    padding-top: 40px;
+}
+.topptext p{
+    margin-left: 120px;
+}
+.buttontop {
+        margin-right: 50px;
+    padding-left: 54px;
+    margin-top: -49px;
+    padding-top: 31px;
+}
+.buttontop button{
+    padding: 10px;
+    background-color: rgb(44, 80, 44);
+    color: white;
+}
+input[type=gmail]{
+    width: 200px;
+    height: 35px;
+}
+.aboutleft{
+    margin-top: 150px;
+    padding-left: 120px;
+}
+.aboutleft p{
+    width: 200px;
+}
+li{
+    list-style-type: none;
+    color:slategray ;
+    padding: 9px;
+}
+.rightttt{
+    margin-top: -150px;
+    margin-left: 400px;
+}
+.rightttt h3{
+    margin-left: 40px;
+}
+
+.righttttt{
+    margin-top: -275px;
+    margin-left: 600px;
+}
+.righttttt h3{
+    margin-left: 40px;
+}
+
+.rightttttt{
+    margin-top: -240px;
+    margin-left: 800px;
+}
+.rightttttt h3{
+    margin-left: 40px;
+}
+
+

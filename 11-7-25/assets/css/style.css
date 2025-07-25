@@ -1,0 +1,19 @@
+.card-footer-color {
+    background-color: orange;
+}
+.img2{
+    height: 231px;
+}
+.img3{
+    height: 231px;
+}
+.img1{
+    height: 231px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}

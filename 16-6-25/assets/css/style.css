@@ -1,0 +1,197 @@
+body{
+   background-image: url('../image/background.jfif');
+   background-repeat: no-repeat;
+   background-size: cover;
+} 
+.main{
+    display: flex;
+    gap: 315px;
+    margin-left: 20px;
+}
+.mainblock {
+    position: relative;
+    border: 3px solid black;
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+ .mainblock .img
+ { 
+    position: absolute;
+    left: 20px;
+    top : 50px;
+    border: 3px solid black;
+    height : 100px;
+    width: 100px;
+ }
+
+ /* next */
+ .mainblock1 {
+    border-radius: 30px;
+     position: relative;
+    border: 3px solid black;
+    height: 200px;
+    width: 300px;
+    box-shadow: 5px 5px 5px black;
+ }
+  .mainblock1 .img1
+ {
+    position: absolute;
+    left: 20px;
+    top : 50px;
+    border: 3px solid black;
+    height : 100px;
+    width: 100px;
+ }
+
+
+  /* next */
+ .mainblock2 {
+    border-radius: 30px;
+     position: relative;
+    border: 3px solid black;
+    height: 200px;
+    width: 300px;
+      box-shadow: 5px 5px 5px black;
+ }
+  .mainblock2 .img2 {
+    position: absolute;
+    left: 20px;
+    top : 50px;
+    border: px solid black;
+    height : 100px;
+    width: 100px;
+ }
+
+  /* next */
+ .mainblock3 {
+    border-radius: 30px;
+     position: relative;
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    margin-left: 1px;
+      box-shadow: 5px 5px 5px black;
+ }
+  .mainblock3 .img3 {
+    position: absolute;
+    left: 20px;
+    top : 50px;
+    border: 2px solid black;
+    height : 100px;
+    width: 100px;
+
+ }
+
+ /* next line */
+
+.main1{
+    display: flex;
+    gap: 315px;
+    margin-left: 20px;
+}
+
+.mainblock4 {
+    border-radius: 30px;
+     position: relative;
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    margin-left: 1px;
+      box-shadow: 5px 5px 5px black;
+ }
+  .mainblock4 .img4 {
+    position: absolute;
+    left: 20px;
+    top : 50px;
+    border: 2px solid black;
+    height : 100px;
+    width: 100px;
+
+ }
+
+
+ .mainblock5 {
+    border-radius: 30px;
+     position: relative;
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    margin-left: 1px;
+      box-shadow: 5px 5px 5px black;
+ }
+  .mainblock5 .img5 {
+    position: absolute;
+    left: 20px;
+    top : 50px;
+    border: 2px solid black;
+    height : 100px;
+    width: 100px;
+
+ }
+
+ /* nextline*/
+
+ .main2{
+    display: flex;
+    gap: 315px;
+    margin-left: 20px;
+ }
+
+ .mainblock6 {
+    border-radius: 30px;
+     position: relative;
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    margin-left: 1px;
+      box-shadow: 5px 5px 5px black;
+ }
+  .mainblock6 .img6 {
+    position: absolute;
+    left: 20px;
+    top : 50px;
+    border: 2px solid black;
+    height : 100px;
+    width: 100px;
+
+ }
+
+  .mainblock7 {
+    border-radius: 30px;
+     position: relative;
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    margin-left: 1px;
+      box-shadow: 5px 5px 5px black;
+ }
+  .mainblock7 .img7 {
+    position: absolute;
+    left: 20px;
+    top : 50px;
+    border: 2px solid black;
+    height : 100px;
+    width: 100px;
+
+ }
+
+
+  .mainblock8 {
+    border-radius: 30px;
+     position: relative;
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    margin-left: 1px;
+      box-shadow: 5px 5px 5px black;
+ }
+  .mainblock8 .img8 {
+    position: absolute;
+    left: 20px;
+    top : 50px;
+    border: 2px solid black;
+    height : 100px;
+    width: 100px;
+ }

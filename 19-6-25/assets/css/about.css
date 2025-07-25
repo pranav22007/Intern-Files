@@ -1,0 +1,28 @@
+.navbarmiddle .leftlogo{
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    height: 80px;
+}
+.midbutton{
+    text-align: center;
+    margin-top: 13px;
+    
+}
+.mid a{
+    text-decoration: none;
+}
+.rightbutton{
+    position: absolute;
+    top: 10px;
+    left: 1200px;
+}
+h4{
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+.about{
+    background-color: rgb(44, 44, 44);
+    width: 450px;
+}

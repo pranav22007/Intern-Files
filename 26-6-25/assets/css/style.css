@@ -1,0 +1,89 @@
+body {
+    background-image: url('../image/background');
+    background-size: cover;
+}
+
+.mid {
+    position: absolute;
+    left: 430px;
+    top: 70px;
+    justify-content: center;
+    height: 430px;
+    width: 500px;
+    background-color: rgba(51, 45, 45, 0.685);
+}
+
+.midtext {
+    color: white;
+    text-align: center;
+    font-family: serif;
+}
+
+.midtext button {
+    color: white;
+    background-color: rgba(51, 45, 45, 0);
+    border: 1px solid white;
+    padding: 5px 15px;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 25px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.432);
+    border: none;
+}
+
+input[type=checkbox] {
+    position: absolute;
+    left: 92px;
+}
+
+.right {
+    margin-left: 200px;
+    margin-top: -38px;
+}
+
+::placeholder {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.lastbutton {
+    color: white;
+    margin-left: 10px;
+}
+
+.lastbutton button {
+    background-color: rgba(65, 189, 127, 0.664);
+    width: 310px;
+    border: none;
+}
+.lastbutton {
+    position: relative;
+}
+
+.lastbutton .tooltiptext {
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    left: 180px;
+    top: 40px;
+    padding: 3px 15px;
+}
+
+.lastbutton:hover .tooltiptext {
+    visibility: visible;
+}
+
+.lastbutton:hover button{
+    background-color : rgba(0, 192, 96, 0.664);
+}
+
