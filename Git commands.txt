@@ -1,4 +1,4 @@
-VS CODE :- (Push the code)
+	VS CODE :- (To open reposetry to vs coode in reposetry)
 
 	*git init 
 	*git add . (add all files)
@@ -6,7 +6,13 @@ VS CODE :- (Push the code)
 	*git remote add origin (url.git)
 	git remote -v (it shows the data is fetched)
 	*git push origin master (master -> master)
-	To clone git code to vs code
+	
+	To clone git code to vs code to save the code to a files to open it on vs code
 	* git clone (url.git)
-
 	url(https://github.com/pranav22007/Intern-Files)
+
+	To save changes vs code to git hub
+	* git add .
+	* git commit -m "initial commit"
+	* git push
+	
