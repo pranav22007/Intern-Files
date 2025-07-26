@@ -1,17 +1,20 @@
 	VS CODE :- (To open reposetry to vs coode in reposetry)
+	To save the normal code which made in our system
+	* git init
+	* git remote add origin (github.link)
+	* git branch -M main ()
+	* Git push origin main
 
-	*git init 
-	*git remote add origin (url.git)
-	*git commit -m main 
-	*git add . (add all files)
-	*git commit "first push"
-	*git push origin main (master -> master)
-	git remote -v (it shows the data is fetched)
+
+	while to save the clone code
+	*git add .
+	*git commit -m "first push"
+	*git push origin main 
 
 	to cheak status
 	*git status
 	
-	To clone git code to vs code to save the code to a files to open it on vs code
+	to clone project in our file
 	* git clone (url.git)
 	url(https://github.com/pranav22007/Intern-Files)
 
@@ -21,9 +24,25 @@
 	* git push origin main
 
 
-	create branch for other
+	create branch
 	*to create branch
-	git checkout -b name
-	git pull origin nranchname  (to get changes from another)
+	*git checkout -b name
+	 git pull origin branchname  (to get code from another branch)
 	git push origin namebranch(to save code)
+
+	to open the branh to edit the code
+ 	*git branch -m main (to open in main branch)
+	*git branch -m subbranch (to open in main branch)
 	
+	*Branch
+	To checkout from any branch 
+	* git checkout -b branchname
+	To go on another branch
+	* git checkout branchname
+
+	To make changes to sub branch to main branch (push pull request)
+	*git add .
+	*git commit -m "msg"
+	*git push origin feature 1 (to save changes in the file to the git hub same file)
+	*get pull request from github from sub branch to main branch
+	*Git pull origin main (Write in vs code to get changes github main to vs code main)
