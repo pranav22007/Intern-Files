@@ -1,11 +1,15 @@
 	VS CODE :- (To open reposetry to vs coode in reposetry)
 
 	*git init 
-	*git add . (add all files)
-	*git commit -am "initial commit"
 	*git remote add origin (url.git)
+	*git commit -m main 
+	*git add . (add all files)
+	*git commit "first push"
+	*git push origin main (master -> master)
 	git remote -v (it shows the data is fetched)
-	*git push origin master (master -> master)
+
+	to cheak status
+	*git status
 	
 	To clone git code to vs code to save the code to a files to open it on vs code
 	* git clone (url.git)
@@ -14,5 +18,12 @@
 	To save changes vs code to git hub
 	* git add .
 	* git commit -m "initial commit"
-	* git push
+	* git push origin main
+
+
+	create branch for other
+	*to create branch
+	git checkout -b name
+	git pull origin nranchname  (to get changes from another)
+	git push origin namebranch(to save code)
 	
